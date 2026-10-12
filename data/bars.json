@@ -1,0 +1,782 @@
+{
+ "list": "The World's 50 Best Bars 2026",
+ "year": 2026,
+ "announced": "2026-10-07, Milan",
+ "sources": [
+  "https://www.thespiritsbusiness.com/2026/10/bar-leone-retains-worlds-best-bar-title-for-2026/",
+  "https://www.the50.com/stories/News/the-50-best-bars-2026-the-1-50-list-revealed.html"
+ ],
+ "bars": [
+  {
+   "rank": 1,
+   "name": "Bar Leone",
+   "city": "Hong Kong",
+   "country": "Hong Kong",
+   "signatureCocktails": [
+    {
+     "name": "Fig Leaf Negroni",
+     "description": "Equal parts gin, Campari and sweet vermouth infused sous-vide with Lantau Island fig leaves (current menu variation per source). Exact ml not published.",
+     "source": "https://www.scmp.com/lifestyle/100-top-tables/article/3326813/drink-focus-fig-leaf-negroni-bar-leone"
+    },
+    {
+     "name": "Olive Oil Sour",
+     "description": "Italian brandy, oloroso sherry, extra virgin olive oil, egg white. Measures not published.",
+     "source": "https://www.cntraveler.com/bars/hong-kong/bar-leone"
+    },
+    {
+     "name": "Leone Martini",
+     "description": "Shaken: Ginepraio gin, vermouth, dry marsala, orange blossom water; almond-stuffed olives. Measures not published.",
+     "source": "https://www.afoodieworld.com/blog/2023/06/16/new-bar-leone/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 2,
+   "name": "Moebius Milano",
+   "city": "Milan",
+   "country": "Italy",
+   "signatureCocktails": [
+    {
+     "name": "Pesto Martini",
+     "description": "Signature. Altamura vodka, vermouth, homemade pesto, white balsamic; served with grated Parmigiano.",
+     "source": "https://www.identitagolose.it/sito/it/462/35406/locali/moebius.html"
+    },
+    {
+     "name": "Pesto Martini – published recipe",
+     "description": "Stir with ice, strain into a pre-chilled glass.",
+     "source": "https://cocktailsdistilled.com/take-a-culinary-approach-to-your-martini-with-moebius/",
+     "spec": [
+      "60 ml pesto-infused vodka (0.7 L vodka + 50 g pesto, 3 h infusion, frozen overnight, filtered)",
+      "10 ml Dolin Dry vermouth",
+      "4 ml Dolin Blanc vermouth",
+      "2 dashes salt solution (1:10)",
+      "0.4 ml white balsamic vinegar"
+     ]
+    },
+    {
+     "name": "Cocco & Salvia Negroni",
+     "description": "Bulldog gin, Campari, Vermouth del Professore Rosso, Mancino Chinato, coconut oil, sage.",
+     "source": "https://moebiusmilano.it/eng/tapa-bistrot-drink-list/"
+    },
+    {
+     "name": "Tzatziki Highball",
+     "description": "Espolòn Blanco tequila, yogurt, coconut water, cucumber, Three Cents Aegean tonic, dill oil.",
+     "source": "https://moebiusmilano.it/eng/tapa-bistrot-drink-list/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 3,
+   "name": "Alquímico",
+   "city": "Cartagena",
+   "country": "Colombia",
+   "signatureCocktails": [
+    {
+     "name": "Petronio (best seller)",
+     "description": "Patrón Reposado tequila, viche, lulo purée, lemon. 45,000 COP.",
+     "source": "https://alquimico.com/en/from-the-house/"
+    },
+    {
+     "name": "Mantilla (best seller)",
+     "description": "Rum, passion fruit, black tea & hibiscus syrup, lemon, Angostura.",
+     "source": "https://alquimico.com/en/from-the-house/"
+    },
+    {
+     "name": "Inquisición (best seller)",
+     "description": "Rum, ginger, lemon, spicy salt from Alquímico farm peppers.",
+     "source": "https://alquimico.com/en/from-the-house/"
+    },
+    {
+     "name": "Kianga",
+     "description": "Johnnie Walker Black, viche, chontaduro, orange, borojó, Montes de María honey.",
+     "source": "https://alquimico.com/en/from-the-house/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 4,
+   "name": "Bar Us",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "signatureCocktails": [
+    {
+     "name": "Pad Thai",
+     "description": "Leek distillate, chilli oil, red shallot, sugarcane, coconut, tamarind, nut syrup, ginger brine, modern sour.",
+     "source": "https://drinksint.com/news/fullstory.php/aid/11958/Menu_of_the_month:_Bar_Us.html"
+    },
+    {
+     "name": "Pear + Fig",
+     "description": "Pear Williams, Ketel One, fig leaf, jasmine, kombucha, modern sour, winter melon, celery bitters, CO2. THB 480.",
+     "source": "https://www.us-bar.com/menus?menu=dinner-menu"
+    },
+    {
+     "name": "Coriander + Cucumber + Roasted Rice",
+     "description": "Coriander distillate, Hendrick's gin, green apple, cucumber, green olive, roasted rice foam.",
+     "source": "https://www.us-bar.com/menus?menu=dinner-menu"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 5,
+   "name": "Line",
+   "city": "Athens",
+   "country": "Greece",
+   "signatureCocktails": [
+    {
+     "name": "Delusional Margarita",
+     "description": "Reposado tequila, ketchup, mustard, spices, potato water.",
+     "source": "https://themixingnotes.com/cities/athens/line"
+    },
+    {
+     "name": "Wet Manhattan",
+     "description": "Jack Daniel's, Metaxa 12 Stars, house Symposium vermouth, blueberry, burnt aubergine, cherry.",
+     "source": "https://themixingnotes.com/cities/athens/line"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 6,
+   "name": "Handshake Speakeasy",
+   "city": "Mexico City",
+   "country": "Mexico",
+   "signatureCocktails": [
+    {
+     "name": "Mexi-Thai (best seller)",
+     "description": "Coconut-oil-washed blanco tequila, makrut lime distillate, clarified tomato cordial; coupe, 3 drops basil oil.",
+     "source": "https://punchdrink.com/articles/tequila-cocktail-handshake-speakeasys-mexi-thai/"
+    },
+    {
+     "name": "Salt N Pepper",
+     "description": "Paloma twist: strawberry-infused mezcal (Lost Explorer), slow-cooked yellow bell pepper, habanero.",
+     "source": "https://www.thespiritsbusiness.com/2025/01/cocktail-stories-salt-n-pepper-handshake-speakeasy/"
+    },
+    {
+     "name": "Butter Mushroom Old Fashioned",
+     "description": "Bourbon, brown butter, mushroom, maple, enoki.",
+     "source": "https://www.theworlds50best.com/stories/News/handshake-speakeasy-mexico-city-the-worlds-best-bar-2024.html"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 7,
+   "name": "Zest",
+   "city": "Seoul",
+   "country": "South Korea",
+   "signatureCocktails": [
+    {
+     "name": "Z&T",
+     "description": "Seasonal G&T made entirely in-house: house-distilled gin with seasonal fruit/botanicals and house-carbonated tonic (from search summary).",
+     "source": "https://www.tatlerasia.com/dining/drinks/zest-bar-seoul-sustainability-interview"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 8,
+   "name": "Connaught Bar",
+   "city": "London",
+   "country": "UK",
+   "signatureCocktails": [
+    {
+     "name": "Connaught Martini (£30)",
+     "description": "Tanqueray No.10 gin, blend of dry vermouths, choice of handmade bitters; always stirred, poured from height tableside from the Martini trolley, lemon zest.",
+     "source": "https://dxp.maybourne.com/globalassets/our-hotels/the-connaught/rb/connaught-bar/menus/the-connaught-bar-menu-june-2026.pdf"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 9,
+   "name": "Lady Bee",
+   "city": "Lima",
+   "country": "Peru",
+   "signatureCocktails": [
+    {
+     "name": "Three Sips Martini",
+     "description": "Peruvian coastal hills distillate, sherry, extra-dry vermouth; three garnishes (Arequipa olive, sea lettuce, trout caviar) (from search summary).",
+     "source": "https://www.theworlds50best.com/stories/News/the-buzz-about-limas-lady-bee.html"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 10,
+   "name": "Bar Mauro",
+   "city": "Mexico City",
+   "country": "Mexico",
+   "signatureCocktails": [
+    {
+     "name": "Maurito",
+     "description": "Siete Misterios Doba Yej mezcal, Lillet Blanc, fino sherry, carbonated guava (from search summary).",
+     "source": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/bar-mauro"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 11,
+   "name": "Schmuck",
+   "city": "New York",
+   "country": "US",
+   "signatureCocktails": [
+    {
+     "name": "Schmuck Martini",
+     "description": "Fords gin, shōchū, Blanche de Normandie, blanc & dry vermouth; olive, lemon oils, olive oil drops on the side (from search summary).",
+     "source": "https://vinepair.com/articles/2025-next-wave-schmuck/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 12,
+   "name": "Hope & Sesame",
+   "city": "Guangzhou",
+   "country": "China",
+   "signatureCocktails": [
+    {
+     "name": "Ango",
+     "description": "Flor de Caña rum, aged balsamic reduction, lime, beet juice (from search summary).",
+     "source": "https://hopeandsesame.cn/hssz-ango/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 13,
+   "name": "The Cambridge Public House",
+   "city": "Paris",
+   "country": "France",
+   "signatureCocktails": [
+    {
+     "name": "Cigarette After Sex",
+     "description": "Only drink on the menu since opening: agua de Jamaica, Elephant sloe gin, Del Maguey Vida mezcal (from search summary).",
+     "source": "https://www.spiriteddrinks.com/cambridge-public-house-paris/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 14,
+   "name": "Sip & Guzzle",
+   "city": "New York",
+   "country": "US",
+   "signatureCocktails": [
+    {
+     "name": "Super Lychee Martini",
+     "description": "Named as a signature (no spec in source summary).",
+     "source": "https://barsforkings.com/bars/new-york/sip-and-guzzle/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 15,
+   "name": "Bar Nouveau",
+   "city": "Paris",
+   "country": "France",
+   "signatureCocktails": [
+    {
+     "name": "Gustave",
+     "description": "Klimt-inspired agave old fashioned with gold leaf and a subtle cheese note (from search summary).",
+     "source": "https://barmag.fr/bar-nouveau-entre-art-et-cocktails-paris/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 16,
+   "name": "Sips",
+   "city": "Barcelona",
+   "country": "Spain",
+   "signatureCocktails": [
+    {
+     "name": "Primordial",
+     "description": "Macallan 12, ruby port, nashi pear; served in metal-cast hands (from search summary).",
+     "source": "https://www.cntraveler.com/story/sips-barcelona-menu"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 17,
+   "name": "Paradiso",
+   "city": "Barcelona",
+   "country": "Spain",
+   "signatureCocktails": [
+    {
+     "name": "Mediterranean Treasure",
+     "description": "Ketel One, oyster-leaf fino sherry, elderflower liqueur, lemon, agave, coriander, egg white; served in a smoke-filled treasure chest (from search summary).",
+     "source": "https://hauteliving.com/2025/06/unlock-the-secrets-of-the-mediterranean-treasure-at-paradiso-barcelona/772838/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 18,
+   "name": "Jigger & Pony",
+   "city": "Singapore",
+   "country": "Singapore",
+   "signatureCocktails": [
+    {
+     "name": "Singapore Sling riff",
+     "description": "Recipe published by Imbibe (not checked in detail).",
+     "source": "https://imbibemagazine.com/recipe/jigger-pony-singapore-sling/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 19,
+   "name": "The Bar in Front of the Bar",
+   "city": "Athens",
+   "country": "Greece",
+   "signatureCocktails": [
+    {
+     "name": "The Yellow House",
+     "description": "Tequila, mezcal, tepache, Dijon mustard, black garlic (from search summary).",
+     "source": "https://int.fnl-guide.com/int/en/the-bars/the-bar-in-front-of-the-bar/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 20,
+   "name": "Exímia",
+   "city": "São Paulo",
+   "country": "Brazil",
+   "signatureCocktails": [
+    {
+     "name": "Kakau",
+     "description": "Bourbon, Roku gin, Campari, vermouths, rooibos, chocolate, orange (from search summary).",
+     "source": "https://www.baressp.com.br/bares/eximia-bar"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 21,
+   "name": "Tres Monos",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "signatureCocktails": [
+    {
+     "name": "Julep de D10S",
+     "description": "House Licor del Norte, amari, strawberry miso, grapefruit (from search summary).",
+     "source": "https://www.enprimeurclub.com/bars/tres-monos-buenos-aires"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 22,
+   "name": "Mamba Negra",
+   "city": "Medellín",
+   "country": "Colombia",
+   "signatureCocktails": [
+    {
+     "name": "Mamba Lab tiny cocktails",
+     "description": "Tasting of 8 tiny cocktails with Colombian ingredients (book ahead).",
+     "source": "https://mambanegra.co/en/mamba-lab-tiny-cocktails-experience/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 23,
+   "name": "De Vie",
+   "city": "Paris",
+   "country": "France",
+   "signatureCocktails": [
+    {
+     "name": "Betterave",
+     "description": "Seasonal, ingredient-named menu; e.g. beetroot spirit, sloe brandy, vermouth (from search summary).",
+     "source": "https://www.cntraveler.com/bars/paris/bar-de-vie"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 24,
+   "name": "Himkok",
+   "city": "Oslo",
+   "country": "Norway",
+   "signatureCocktails": [
+    {
+     "name": "Brunost",
+     "description": "Aquavit, Armagnac, dry vermouth, brown-cheese syrup; brown cheese & rosemary garnish (from search summary).",
+     "source": "https://punchdrink.com/articles/behind-himkok-norway-menu-best-cocktail-bars-oslo/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 25,
+   "name": "Argo",
+   "city": "Hong Kong",
+   "country": "Hong Kong",
+   "signatureCocktails": [
+    {
+     "name": "Argo Martini",
+     "description": "Frozen bespoke Argo gin with a chilled seasonal hydrosol, no vermouth, poured tableside (from search summary).",
+     "source": "https://www.scmp.com/lifestyle/100-top-tables/article/3314898/drink-focus-argo-martini-argo",
+     "spec": [
+      "70 ml Argo gin",
+      "30 ml seasonal hydrosol"
+     ]
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 26,
+   "name": "Danico",
+   "city": "Paris",
+   "country": "France",
+   "signatureCocktails": [
+    {
+     "name": "Sakura (house Negroni)",
+     "description": "Citadelle gin, sweet vermouth, Campari, umeshu, sakura (from search summary).",
+     "source": "https://barmagazine.com/danico-paris-10th-anniversary-best-of-cocktail-menu"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 27,
+   "name": "Dry Wave Cocktail Studio",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "signatureCocktails": [
+    {
+     "name": "Morning Tijuana",
+     "description": "'Super Classic': mezcal Margarita × Breakfast Martini with strawberry and paprika (from search summary).",
+     "source": "https://www.theinfatuation.com/bangkok/reviews/dry-wave-cocktail-studio"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 28,
+   "name": "El Gallo Altanero",
+   "city": "Guadalajara",
+   "country": "Mexico",
+   "signatureCocktails": [
+    {
+     "name": "Chingatu Marita",
+     "description": "Named as a signature (no spec in source summary).",
+     "source": "https://www.enprimeurclub.com/bars/el-gallo-altanero-guadalajara"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 29,
+   "name": "Satan's Whiskers",
+   "city": "London",
+   "country": "UK",
+   "signatureCocktails": [
+    {
+     "name": "East 8 Hold-Up",
+     "description": "Daily-changing menu; listed signature: vodka, Aperol, pineapple, lime (from search summary).",
+     "source": "https://www.theworlds50best.com/bars/best-in-the-world/the-list/satans-whiskers.html"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 30,
+   "name": "BKK Social Club",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "signatureCocktails": [
+    {
+     "name": "Since 1942",
+     "description": "Old Fashioned: Don Julio 1942, apricot, bitters. THB 1,700.",
+     "source": "https://www.fourseasons.com/bangkok/dining/lounges/bkk-social-club/signature-cocktails/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 31,
+   "name": "Victor Audio Bar",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "signatureCocktails": [],
+   "signatureStatus": "unknown",
+   "note": "Menu focuses on classic Martini-style cocktails; no house signature found (menutotaste.com/restaurants/victor-audio-bar-buenos-aires)."
+  },
+  {
+   "rank": 32,
+   "name": "Waltz",
+   "city": "London",
+   "country": "UK",
+   "signatureCocktails": [
+    {
+     "name": "Matcha Old Fashioned",
+     "description": "Evergreen signature: Japanese whisky, matcha, honey (from search summary).",
+     "source": "https://www.cntraveller.com/article/waltz-london-bar"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 33,
+   "name": "Locale Firenze",
+   "city": "Florence",
+   "country": "Italy",
+   "signatureCocktails": [
+    {
+     "name": "Foglia",
+     "description": "Gin, hemp, mint, basil, lemon (from search summary).",
+     "source": "https://www.identitagolose.it/sito/it/462/35471/locali/locale.html"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 34,
+   "name": "Mirror Bar",
+   "city": "Bratislava",
+   "country": "Slovakia",
+   "signatureCocktails": [
+    {
+     "name": "Ritual",
+     "description": "Whisky, yuzu honey, green-tea umeshu, sansho pepper, black-rice water (from search summary).",
+     "source": "https://www.enprimeurclub.com/bars/mirror-bar-bratislava"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 35,
+   "name": "Tan Tan",
+   "city": "São Paulo",
+   "country": "Brazil",
+   "signatureCocktails": [
+    {
+     "name": "Cornfield",
+     "description": "Johnnie Walker Black, aged rum, baru infusion, white-chocolate popcorn (from search summary).",
+     "source": "https://themixingnotes.com/cities/sao-paulo/tan-tan/menu"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 36,
+   "name": "Montana",
+   "city": "Hong Kong",
+   "country": "Hong Kong",
+   "signatureCocktails": [
+    {
+     "name": "Montana Daiquiri",
+     "description": "Rum, lime, maraschino, float of kirsch eau-de-vie (from search summary).",
+     "source": "https://imbibemagazine.com/recipe/montana-daiquiri/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 37,
+   "name": "Sastrería Martinez",
+   "city": "Lima",
+   "country": "Peru",
+   "signatureCocktails": [
+    {
+     "name": "Mrs. Martínez",
+     "description": "Intira gin, strawberry-infused Aperol, mandarin lime, blueberries, bitter lemon (from search summary).",
+     "source": "https://www.thespiritsbusiness.com/2025/07/sastreria-martinez-unveils-new-cocktail-menu/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 38,
+   "name": "Nutmeg & Clove",
+   "city": "Singapore",
+   "country": "Singapore",
+   "signatureCocktails": [
+    {
+     "name": "Nutmeg & Clove",
+     "description": "Eponymous signature, served with a childhood chocolate biscuit (from search summary).",
+     "source": "https://www.diffordsguide.com/bars/v9WKL9/nutmeg-and-clove"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 39,
+   "name": "Bar Carmen",
+   "city": "Medellín",
+   "country": "Colombia",
+   "signatureCocktails": [
+    {
+     "name": "La Chicha",
+     "description": "Vodka, pineapple pickled in plantain vinegar, mirin (from search summary).",
+     "source": "https://menutotaste.com/restaurants/bar-carmen-medellin"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 40,
+   "name": "Barro Negro",
+   "city": "Athens",
+   "country": "Greece",
+   "signatureCocktails": [
+    {
+     "name": "Mayans Punch",
+     "description": "Clarified milk punch: reposado tequila, tepache, passion-fruit cordial, coffee distillate, lime (from search summary).",
+     "source": "https://australianbartender.com.au/2026/09/15/mayans-punch-barro-negro-athens-mexican-inspired-take-on-a-classic-punch/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 41,
+   "name": "Gokan",
+   "city": "Hong Kong",
+   "country": "Hong Kong",
+   "signatureCocktails": [
+    {
+     "name": "Watermelon Koffeezz",
+     "description": "Clarified watermelon, light-roast Tokyo coffee, gin; fizz style (from search summary).",
+     "source": "https://www.eater.com/venue/931598/gokan"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 42,
+   "name": "Mimi Kakushi",
+   "city": "Dubai",
+   "country": "UAE",
+   "signatureCocktails": [
+    {
+     "name": "Nara Nara Martini",
+     "description": "Ume-infused gin, hint of vermouth; frozen in ice block, carved tableside, ~-20°C (from search summary).",
+     "source": "https://www.the50.com/bars/best-in-the-world/the-list/mimi-kakushi.html"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 43,
+   "name": "Nouvelle Vague",
+   "city": "Tirana",
+   "country": "Albania",
+   "signatureCocktails": [
+    {
+     "name": "NU FASHION",
+     "description": "Signature since opening: rye & bourbon, blended vermouth, ginger, lime, bitters (from search summary).",
+     "source": "https://nouvellevaguetirana.com/menu/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 44,
+   "name": "Bar Benfiddich",
+   "city": "Tokyo",
+   "country": "Japan",
+   "signatureCocktails": [
+    {
+     "name": "Fresh Campari",
+     "description": "House-made Campari-style drink from herbs, roots, spices (from search summary).",
+     "source": "https://www.barsandcocktails.com.au/bars-clubs/communication-the-key-at-world-top-50-bar/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 45,
+   "name": "Caretaker's Cottage",
+   "city": "Melbourne",
+   "country": "Australia",
+   "signatureCocktails": [
+    {
+     "name": "House Martini",
+     "description": "House gin & house dry vermouth from the freezer; onion garnish recommended (from search summary).",
+     "source": "https://www.boothby.com.au/house-martini/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 46,
+   "name": "Martiny's",
+   "city": "New York",
+   "country": "US",
+   "signatureCocktails": [
+    {
+     "name": "Grand Martiny's",
+     "description": "Bombay Sapphire, La Cigarrera manzanilla, St-Germain, 2016 Churchill's port, Hine Rare cognac; marinated grape (from search summary).",
+     "source": "https://hauteliving.com/2024/10/cocktail-of-the-week-the-grand-martinys-at-martinys-ny/757273/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 47,
+   "name": "Tlecān",
+   "city": "Mexico City",
+   "country": "Mexico",
+   "signatureCocktails": [
+    {
+     "name": "Tascalate Sour",
+     "description": "Mezcal, Chiapas tascalate, fermented cacao, lemon, agave, egg white (from search summary).",
+     "source": "https://punchdrink.com/articles/tlecan-tascalate-sour-mexico-city-mezcal-cocktail/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 48,
+   "name": "Virtù",
+   "city": "Tokyo",
+   "country": "Japan",
+   "signatureCocktails": [
+    {
+     "name": "Virtù Martini",
+     "description": "Japanese gin & vodka, French vermouth, hinoki bitters (from search summary).",
+     "source": "https://www.fourseasons.com/otemachi/dining/menus/virtu-bar-menu/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 49,
+   "name": "Bar Snack",
+   "city": "New York",
+   "country": "US",
+   "signatureCocktails": [
+    {
+     "name": "Phish Food Old Fashioned",
+     "description": "Bourbon, Tennessee whiskey, cacao rum, house marshmallow-fluff syrup (from search summary).",
+     "source": "https://vinepair.com/articles/bar-snack-phish-food-old-fashioned/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  },
+  {
+   "rank": 50,
+   "name": "Angelita",
+   "city": "Madrid",
+   "country": "Spain",
+   "signatureCocktails": [
+    {
+     "name": "La Tomatera",
+     "description": "Tequila, green-tomato liqueur, soda (from search summary).",
+     "source": "https://www.spiriteddrinks.com/la-tomatera-angelita-madrid-tequila-tomato-cocktail/"
+    }
+   ],
+   "signatureStatus": "sourced"
+  }
+ ]
+}

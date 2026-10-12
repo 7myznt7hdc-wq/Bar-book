@@ -1,0 +1,918 @@
+{
+ "units": "ml",
+ "note": "Standard classic specs (IBA/common UK bar practice). 25 ml = UK single measure.",
+ "cocktails": [
+  {
+   "name": "Negroni",
+   "spirit": "Gin",
+   "glass": "Rocks",
+   "garnish": "Orange peel",
+   "method": "Stir over ice, strain onto fresh ice.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 25
+    },
+    {
+     "item": "Campari",
+     "ml": 25
+    },
+    {
+     "item": "Sweet vermouth",
+     "ml": 25
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Dry Martini",
+   "spirit": "Gin",
+   "glass": "Coupe/Martini",
+   "garnish": "Lemon twist or olive",
+   "method": "Stir with ice, strain.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 60
+    },
+    {
+     "item": "Dry vermouth",
+     "ml": 15
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Gimlet",
+   "spirit": "Gin",
+   "glass": "Coupe",
+   "garnish": "Lime wheel",
+   "method": "Shake with ice, fine strain.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 60
+    },
+    {
+     "item": "Lime cordial",
+     "ml": 20
+    },
+    {
+     "item": "Fresh lime juice",
+     "ml": 10
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Tom Collins",
+   "spirit": "Gin",
+   "glass": "Highball",
+   "garnish": "Lemon wheel, cherry",
+   "method": "Shake gin, lemon, sugar; strain over ice; top with soda.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 50
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 15
+    },
+    {
+     "item": "Soda water",
+     "ml": 60
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "French 75",
+   "spirit": "Gin",
+   "glass": "Flute",
+   "garnish": "Lemon twist",
+   "method": "Shake gin, lemon, syrup; strain; top with Champagne.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 30
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 15
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 10
+    },
+    {
+     "item": "Champagne",
+     "ml": 60
+    }
+   ],
+   "category": "Sparkling"
+  },
+  {
+   "name": "Aviation",
+   "spirit": "Gin",
+   "glass": "Coupe",
+   "garnish": "Cherry",
+   "method": "Shake with ice, fine strain.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 45
+    },
+    {
+     "item": "Maraschino liqueur",
+     "ml": 15
+    },
+    {
+     "item": "Crème de violette",
+     "ml": 5
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 15
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Last Word",
+   "spirit": "Gin",
+   "glass": "Coupe",
+   "garnish": "None",
+   "method": "Shake with ice, fine strain.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 22.5
+    },
+    {
+     "item": "Green Chartreuse",
+     "ml": 22.5
+    },
+    {
+     "item": "Maraschino liqueur",
+     "ml": 22.5
+    },
+    {
+     "item": "Lime juice",
+     "ml": 22.5
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Bramble",
+   "spirit": "Gin",
+   "glass": "Rocks",
+   "garnish": "Blackberry, lemon",
+   "method": "Shake gin, lemon, syrup; strain over crushed ice; drizzle crème de mûre.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 50
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 12.5
+    },
+    {
+     "item": "Crème de mûre",
+     "ml": 15
+    }
+   ],
+   "category": "Modern Classic"
+  },
+  {
+   "name": "White Lady",
+   "spirit": "Gin",
+   "glass": "Coupe",
+   "garnish": "Lemon twist",
+   "method": "Shake hard with ice (optional egg white), fine strain.",
+   "ingredients": [
+    {
+     "item": "Gin",
+     "ml": 40
+    },
+    {
+     "item": "Triple sec",
+     "ml": 30
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 20
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Old Fashioned",
+   "spirit": "Whisky",
+   "glass": "Rocks",
+   "garnish": "Orange peel",
+   "method": "Stir all over ice, strain onto large cube.",
+   "ingredients": [
+    {
+     "item": "Bourbon or rye",
+     "ml": 60
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 7.5
+    },
+    {
+     "item": "Angostura bitters",
+     "amount": "2 dashes"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Manhattan",
+   "spirit": "Whisky",
+   "glass": "Coupe",
+   "garnish": "Cherry",
+   "method": "Stir with ice, strain.",
+   "ingredients": [
+    {
+     "item": "Rye whiskey",
+     "ml": 50
+    },
+    {
+     "item": "Sweet vermouth",
+     "ml": 20
+    },
+    {
+     "item": "Angostura bitters",
+     "amount": "2 dashes"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Whisky Sour",
+   "spirit": "Whisky",
+   "glass": "Rocks",
+   "garnish": "Angostura drops, cherry",
+   "method": "Dry shake, then shake with ice; strain over ice.",
+   "ingredients": [
+    {
+     "item": "Bourbon",
+     "ml": 50
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 20
+    },
+    {
+     "item": "Egg white",
+     "ml": 20
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Boulevardier",
+   "spirit": "Whisky",
+   "glass": "Rocks",
+   "garnish": "Orange peel",
+   "method": "Stir over ice, strain onto fresh ice.",
+   "ingredients": [
+    {
+     "item": "Bourbon",
+     "ml": 40
+    },
+    {
+     "item": "Campari",
+     "ml": 25
+    },
+    {
+     "item": "Sweet vermouth",
+     "ml": 25
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Penicillin",
+   "spirit": "Whisky",
+   "glass": "Rocks",
+   "garnish": "Candied ginger",
+   "method": "Shake (except Islay), strain over ice, float Islay.",
+   "ingredients": [
+    {
+     "item": "Blended Scotch",
+     "ml": 50
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 22.5
+    },
+    {
+     "item": "Honey-ginger syrup",
+     "ml": 22.5
+    },
+    {
+     "item": "Islay Scotch",
+     "ml": 7.5
+    }
+   ],
+   "category": "Modern Classic"
+  },
+  {
+   "name": "Mint Julep",
+   "spirit": "Whisky",
+   "glass": "Julep cup",
+   "garnish": "Mint bouquet",
+   "method": "Gently press mint with syrup, add bourbon and crushed ice, churn.",
+   "ingredients": [
+    {
+     "item": "Bourbon",
+     "ml": 60
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 12.5
+    },
+    {
+     "item": "Mint leaves",
+     "amount": "8-10"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Sazerac",
+   "spirit": "Whisky",
+   "glass": "Rocks (no ice)",
+   "garnish": "Lemon peel (discarded)",
+   "method": "Rinse glass with absinthe; stir rest with ice, strain.",
+   "ingredients": [
+    {
+     "item": "Rye whiskey",
+     "ml": 50
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 7.5
+    },
+    {
+     "item": "Peychaud's bitters",
+     "amount": "3 dashes"
+    },
+    {
+     "item": "Absinthe",
+     "amount": "rinse"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Rob Roy",
+   "spirit": "Whisky",
+   "glass": "Coupe",
+   "garnish": "Cherry",
+   "method": "Stir with ice, strain.",
+   "ingredients": [
+    {
+     "item": "Scotch whisky",
+     "ml": 50
+    },
+    {
+     "item": "Sweet vermouth",
+     "ml": 25
+    },
+    {
+     "item": "Angostura bitters",
+     "amount": "2 dashes"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Daiquiri",
+   "spirit": "Rum",
+   "glass": "Coupe",
+   "garnish": "Lime wheel",
+   "method": "Shake hard, fine strain.",
+   "ingredients": [
+    {
+     "item": "White rum",
+     "ml": 60
+    },
+    {
+     "item": "Lime juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 15
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Mojito",
+   "spirit": "Rum",
+   "glass": "Highball",
+   "garnish": "Mint sprig",
+   "method": "Press mint with lime and syrup, add rum and crushed ice, top with soda.",
+   "ingredients": [
+    {
+     "item": "White rum",
+     "ml": 50
+    },
+    {
+     "item": "Lime juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 20
+    },
+    {
+     "item": "Mint leaves",
+     "amount": "8"
+    },
+    {
+     "item": "Soda water",
+     "ml": 50
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "Mai Tai",
+   "spirit": "Rum",
+   "glass": "Rocks",
+   "garnish": "Mint sprig, lime shell",
+   "method": "Shake, strain over crushed ice.",
+   "ingredients": [
+    {
+     "item": "Aged rum",
+     "ml": 50
+    },
+    {
+     "item": "Orange curaçao",
+     "ml": 15
+    },
+    {
+     "item": "Orgeat",
+     "ml": 15
+    },
+    {
+     "item": "Lime juice",
+     "ml": 25
+    }
+   ],
+   "category": "Tiki"
+  },
+  {
+   "name": "Dark 'n' Stormy",
+   "spirit": "Rum",
+   "glass": "Highball",
+   "garnish": "Lime wedge",
+   "method": "Build over ice: ginger beer, then float rum.",
+   "ingredients": [
+    {
+     "item": "Dark rum",
+     "ml": 50
+    },
+    {
+     "item": "Ginger beer",
+     "ml": 100
+    },
+    {
+     "item": "Lime juice",
+     "ml": 10
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "Piña Colada",
+   "spirit": "Rum",
+   "glass": "Hurricane",
+   "garnish": "Pineapple wedge, cherry",
+   "method": "Blend with ice or shake hard.",
+   "ingredients": [
+    {
+     "item": "White rum",
+     "ml": 50
+    },
+    {
+     "item": "Coconut cream",
+     "ml": 30
+    },
+    {
+     "item": "Pineapple juice",
+     "ml": 90
+    }
+   ],
+   "category": "Tiki"
+  },
+  {
+   "name": "Margarita",
+   "spirit": "Tequila",
+   "glass": "Coupe or rocks (salt rim)",
+   "garnish": "Lime wheel",
+   "method": "Shake, strain.",
+   "ingredients": [
+    {
+     "item": "Tequila blanco",
+     "ml": 50
+    },
+    {
+     "item": "Triple sec",
+     "ml": 20
+    },
+    {
+     "item": "Lime juice",
+     "ml": 25
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Paloma",
+   "spirit": "Tequila",
+   "glass": "Highball (salt rim)",
+   "garnish": "Grapefruit wedge",
+   "method": "Build over ice, top with grapefruit soda.",
+   "ingredients": [
+    {
+     "item": "Tequila blanco",
+     "ml": 50
+    },
+    {
+     "item": "Lime juice",
+     "ml": 15
+    },
+    {
+     "item": "Grapefruit soda",
+     "ml": 120
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "Tommy's Margarita",
+   "spirit": "Tequila",
+   "glass": "Rocks",
+   "garnish": "Lime wheel",
+   "method": "Shake, strain over ice.",
+   "ingredients": [
+    {
+     "item": "Tequila reposado or blanco",
+     "ml": 60
+    },
+    {
+     "item": "Lime juice",
+     "ml": 30
+    },
+    {
+     "item": "Agave syrup",
+     "ml": 15
+    }
+   ],
+   "category": "Modern Classic"
+  },
+  {
+   "name": "Cosmopolitan",
+   "spirit": "Vodka",
+   "glass": "Coupe",
+   "garnish": "Orange zest",
+   "method": "Shake, fine strain.",
+   "ingredients": [
+    {
+     "item": "Citrus vodka",
+     "ml": 40
+    },
+    {
+     "item": "Triple sec",
+     "ml": 15
+    },
+    {
+     "item": "Cranberry juice",
+     "ml": 30
+    },
+    {
+     "item": "Lime juice",
+     "ml": 15
+    }
+   ],
+   "category": "Modern Classic"
+  },
+  {
+   "name": "Moscow Mule",
+   "spirit": "Vodka",
+   "glass": "Copper mug",
+   "garnish": "Lime wedge, mint",
+   "method": "Build over ice.",
+   "ingredients": [
+    {
+     "item": "Vodka",
+     "ml": 50
+    },
+    {
+     "item": "Lime juice",
+     "ml": 15
+    },
+    {
+     "item": "Ginger beer",
+     "ml": 120
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "Espresso Martini",
+   "spirit": "Vodka",
+   "glass": "Coupe",
+   "garnish": "3 coffee beans",
+   "method": "Shake hard, fine strain.",
+   "ingredients": [
+    {
+     "item": "Vodka",
+     "ml": 50
+    },
+    {
+     "item": "Coffee liqueur",
+     "ml": 25
+    },
+    {
+     "item": "Fresh espresso",
+     "ml": 30
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 5
+    }
+   ],
+   "category": "Modern Classic"
+  },
+  {
+   "name": "Bloody Mary",
+   "spirit": "Vodka",
+   "glass": "Highball",
+   "garnish": "Celery stick, lemon",
+   "method": "Roll between tins with ice, strain over ice.",
+   "ingredients": [
+    {
+     "item": "Vodka",
+     "ml": 50
+    },
+    {
+     "item": "Tomato juice",
+     "ml": 120
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 15
+    },
+    {
+     "item": "Worcestershire sauce",
+     "amount": "3 dashes"
+    },
+    {
+     "item": "Tabasco",
+     "amount": "2 dashes"
+    },
+    {
+     "item": "Salt & pepper",
+     "amount": "pinch"
+    }
+   ],
+   "category": "Classic"
+  },
+  {
+   "name": "Sidecar",
+   "spirit": "Brandy",
+   "glass": "Coupe (sugar rim optional)",
+   "garnish": "Orange twist",
+   "method": "Shake, fine strain.",
+   "ingredients": [
+    {
+     "item": "Cognac",
+     "ml": 50
+    },
+    {
+     "item": "Triple sec",
+     "ml": 20
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 20
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Pisco Sour",
+   "spirit": "Brandy",
+   "glass": "Coupe",
+   "garnish": "Angostura drops",
+   "method": "Dry shake, shake with ice, fine strain.",
+   "ingredients": [
+    {
+     "item": "Pisco",
+     "ml": 60
+    },
+    {
+     "item": "Lime juice",
+     "ml": 30
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 20
+    },
+    {
+     "item": "Egg white",
+     "ml": 20
+    }
+   ],
+   "category": "Sour"
+  },
+  {
+   "name": "Aperol Spritz",
+   "spirit": "Aperitif",
+   "glass": "Wine glass",
+   "garnish": "Orange slice",
+   "method": "Build over ice: prosecco, Aperol, soda.",
+   "ingredients": [
+    {
+     "item": "Prosecco",
+     "ml": 90
+    },
+    {
+     "item": "Aperol",
+     "ml": 60
+    },
+    {
+     "item": "Soda water",
+     "ml": 30
+    }
+   ],
+   "category": "Spritz"
+  },
+  {
+   "name": "Americano",
+   "spirit": "Aperitif",
+   "glass": "Highball",
+   "garnish": "Orange slice",
+   "method": "Build over ice, top with soda.",
+   "ingredients": [
+    {
+     "item": "Campari",
+     "ml": 30
+    },
+    {
+     "item": "Sweet vermouth",
+     "ml": 30
+    },
+    {
+     "item": "Soda water",
+     "ml": 60
+    }
+   ],
+   "category": "Highball"
+  },
+  {
+   "name": "Virgin Mojito",
+   "spirit": "None (mocktail)",
+   "category": "Mocktail",
+   "glass": "Highball",
+   "garnish": "Mint sprig",
+   "method": "Press mint with lime & syrup, add crushed ice, top soda.",
+   "ingredients": [
+    {
+     "item": "Lime juice",
+     "ml": 25
+    },
+    {
+     "item": "Sugar syrup",
+     "ml": 20
+    },
+    {
+     "item": "Mint leaves",
+     "amount": "8"
+    },
+    {
+     "item": "Soda water",
+     "ml": 120
+    }
+   ]
+  },
+  {
+   "name": "Shirley Temple",
+   "spirit": "None (mocktail)",
+   "category": "Mocktail",
+   "glass": "Highball",
+   "garnish": "Cherry",
+   "method": "Build over ice.",
+   "ingredients": [
+    {
+     "item": "Ginger ale",
+     "ml": 150
+    },
+    {
+     "item": "Grenadine",
+     "ml": 15
+    },
+    {
+     "item": "Lime juice",
+     "ml": 10
+    }
+   ]
+  },
+  {
+   "name": "Nojito Spritz",
+   "spirit": "None (mocktail)",
+   "category": "Mocktail",
+   "glass": "Wine glass",
+   "garnish": "Orange slice",
+   "method": "Build over ice.",
+   "ingredients": [
+    {
+     "item": "Non-alcoholic aperitif",
+     "ml": 60
+    },
+    {
+     "item": "Alcohol-free sparkling wine",
+     "ml": 90
+    },
+    {
+     "item": "Soda water",
+     "ml": 30
+    }
+   ]
+  },
+  {
+   "name": "Virgin Mary",
+   "spirit": "None (mocktail)",
+   "category": "Mocktail",
+   "glass": "Highball",
+   "garnish": "Celery, lemon",
+   "method": "Roll with ice, strain over ice.",
+   "ingredients": [
+    {
+     "item": "Tomato juice",
+     "ml": 150
+    },
+    {
+     "item": "Lemon juice",
+     "ml": 15
+    },
+    {
+     "item": "Worcestershire sauce",
+     "amount": "3 dashes"
+    },
+    {
+     "item": "Tabasco",
+     "amount": "2 dashes"
+    },
+    {
+     "item": "Salt & pepper",
+     "amount": "pinch"
+    }
+   ]
+  },
+  {
+   "name": "Ginger Lime Fizz",
+   "spirit": "None (mocktail)",
+   "category": "Mocktail",
+   "glass": "Highball",
+   "garnish": "Lime wheel",
+   "method": "Shake lime, syrup; strain over ice; top ginger beer.",
+   "ingredients": [
+    {
+     "item": "Lime juice",
+     "ml": 20
+    },
+    {
+     "item": "Ginger syrup",
+     "ml": 15
+    },
+    {
+     "item": "Ginger beer",
+     "ml": 120
+    }
+   ]
+  }
+ ]
+}
