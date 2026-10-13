@@ -1,0 +1,640 @@
+{
+ "about": "Bar Book seasonal rotation. Fortnights counted from epoch 2026-01-05 (Mon). Dated events (priority 2) win when the fortnight's middle day falls in their window; otherwise UK meteorological season (spring Mar-May, summer Jun-Aug, autumn Sep-Nov, winter Dec-Feb). Specs with label 'Bar Book recipe' are house recipes, not from any bar.",
+ "epoch": "2026-01-05",
+ "perFortnight": 10,
+ "periods": [
+  {
+   "id": "burns",
+   "start": "01-15",
+   "end": "01-31",
+   "priority": 2,
+   "titles": [
+    "Burns Night: Scotch & Haggis Hour",
+    "A Wee Dram, Shaken"
+   ],
+   "library": [
+    "Rob Roy",
+    "Dry Rob Roy",
+    "Rusty Nail",
+    "Penicillin",
+    "Whisky Mac",
+    "Scotch Sour",
+    "Highland Fling Cocktail",
+    "Loch Lomond",
+    "Balmoral",
+    "Flying Scotchman",
+    "Hot Toddy"
+   ],
+   "specs": [
+    {
+     "id": "bb-bobby-burns",
+     "name": "Bobby Burns",
+     "spirit": "Whisky",
+     "category": "Classic",
+     "glass": "Coupe",
+     "garnish": "Lemon twist",
+     "method": "Stir with ice, strain.",
+     "ingredients": [
+      {
+       "item": "Blended Scotch",
+       "ml": 50
+      },
+      {
+       "item": "Sweet vermouth",
+       "ml": 25
+      },
+      {
+       "item": "Bénédictine",
+       "ml": 7.5
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "valentine",
+   "start": "02-01",
+   "end": "02-14",
+   "priority": 2,
+   "titles": [
+    "Valentine's: Pink, Fizz & Flirt",
+    "Love Potions"
+   ],
+   "library": [
+    "Kir Royale",
+    "French 75",
+    "Clover Club",
+    "Pink Lady",
+    "English Rose Cocktail",
+    "Lady Love Fizz",
+    "Pornstar Martini",
+    "Rose",
+    "Royal Fizz",
+    "Bellini",
+    "Passion Fruit Martini",
+    "Shirley Temple"
+   ],
+   "specs": [
+    {
+     "id": "bb-rhubarb-royale",
+     "name": "Rhubarb & Rose Royale",
+     "spirit": "Gin",
+     "category": "Sparkling",
+     "glass": "Flute",
+     "garnish": "Rose petal",
+     "method": "Shake gin, liqueur and lemon; strain; top with sparkling wine.",
+     "ingredients": [
+      {
+       "item": "Gin",
+       "ml": 20
+      },
+      {
+       "item": "Rhubarb liqueur",
+       "ml": 15
+      },
+      {
+       "item": "Lemon juice",
+       "ml": 10
+      },
+      {
+       "item": "Rose water",
+       "amount": "2 drops"
+      },
+      {
+       "item": "English sparkling wine",
+       "ml": 90
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "halloween",
+   "start": "10-17",
+   "end": "10-31",
+   "priority": 2,
+   "titles": [
+    "Halloween: Dark Spirits",
+    "Witching Hour Cocktails"
+   ],
+   "library": [
+    "Corpse Reviver",
+    "Zombie",
+    "Vampiro",
+    "Grim Reaper",
+    "Halloween Punch",
+    "Freddy Kruger",
+    "Thriller",
+    "Dark 'n' Stormy",
+    "Blackthorn",
+    "Hunter's Moon",
+    "Monkey Gland"
+   ],
+   "specs": [
+    {
+     "id": "bb-black-cat",
+     "name": "Black Cat Sour",
+     "spirit": "Whisky",
+     "category": "Sour",
+     "glass": "Rocks",
+     "garnish": "Blackberry",
+     "method": "Dry shake, then shake with ice; strain over ice; drizzle crème de mûre.",
+     "ingredients": [
+      {
+       "item": "Bourbon",
+       "ml": 45
+      },
+      {
+       "item": "Lemon juice",
+       "ml": 25
+      },
+      {
+       "item": "Blackberry syrup",
+       "ml": 15
+      },
+      {
+       "item": "Egg white",
+       "ml": 20
+      },
+      {
+       "item": "Crème de mûre",
+       "ml": 10
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "bonfire",
+   "start": "11-01",
+   "end": "11-12",
+   "priority": 2,
+   "titles": [
+    "Bonfire Night: Smoke & Toffee",
+    "Remember, Remember…"
+   ],
+   "library": [
+    "Hot Toddy",
+    "Mulled Wine",
+    "Gluehwein",
+    "Old Fashioned",
+    "Rum Old-fashioned",
+    "Irish Coffee",
+    "Penicillin",
+    "Sazerac",
+    "Hot Chocolate to Die for",
+    "Jack Rose Cocktail",
+    "Stinger"
+   ],
+   "specs": [
+    {
+     "id": "bb-toffee-apple",
+     "name": "Toffee Apple Old Fashioned",
+     "spirit": "Whisky",
+     "category": "Modern Classic",
+     "glass": "Rocks",
+     "garnish": "Apple fan",
+     "method": "Stir over ice, strain onto a large cube.",
+     "ingredients": [
+      {
+       "item": "Bourbon",
+       "ml": 50
+      },
+      {
+       "item": "Calvados",
+       "ml": 10
+      },
+      {
+       "item": "Salted caramel syrup",
+       "ml": 7.5
+      },
+      {
+       "item": "Angostura bitters",
+       "amount": "2 dashes"
+      }
+     ],
+     "label": "Bar Book recipe"
+    },
+    {
+     "id": "bb-guy-fawkes-toddy",
+     "name": "Bonfire Toddy",
+     "spirit": "Whisky",
+     "category": "Hot",
+     "glass": "Heatproof mug",
+     "garnish": "Lemon wheel studded with cloves",
+     "method": "Build in a warmed mug, top with hot water, stir.",
+     "ingredients": [
+      {
+       "item": "Blended Scotch (lightly peated)",
+       "ml": 40
+      },
+      {
+       "item": "Honey syrup",
+       "ml": 15
+      },
+      {
+       "item": "Lemon juice",
+       "ml": 10
+      },
+      {
+       "item": "Hot water",
+       "ml": 100
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "christmas",
+   "start": "12-01",
+   "end": "12-31",
+   "priority": 2,
+   "titles": [
+    "Christmas: Warmers & Nogs",
+    "Festive Fizz & Fireside"
+   ],
+   "library": [
+    "Egg-Nog - Classic Cooked",
+    "Sherry Eggnog",
+    "Mulled Wine",
+    "Gluehwein",
+    "Snowball",
+    "Irish Coffee",
+    "3 Wise Men",
+    "Hot Toddy",
+    "White Russian",
+    "Kir Royale",
+    "Alexander",
+    "Spice 75",
+    "Figgy Thyme",
+    "Winter Paloma",
+    "Winter Rita"
+   ],
+   "specs": [
+    {
+     "id": "bb-mulled-cider",
+     "name": "Spiced Mulled Cider",
+     "spirit": "Brandy",
+     "category": "Hot",
+     "glass": "Heatproof glass",
+     "garnish": "Orange slice, cinnamon stick",
+     "method": "Warm cider with spices and sugar (don't boil) for 15 min; add brandy per glass.",
+     "ingredients": [
+      {
+       "item": "Dry English cider",
+       "ml": 150
+      },
+      {
+       "item": "Calvados or brandy",
+       "ml": 25
+      },
+      {
+       "item": "Demerara syrup",
+       "ml": 10
+      },
+      {
+       "item": "Cinnamon, clove, star anise",
+       "amount": "to taste"
+      }
+     ],
+     "label": "Bar Book recipe"
+    },
+    {
+     "id": "bb-christmas-negroni",
+     "name": "Christmas Negroni",
+     "spirit": "Gin",
+     "category": "Classic",
+     "glass": "Rocks",
+     "garnish": "Orange peel & rosemary",
+     "method": "Stir over ice, strain onto fresh ice.",
+     "ingredients": [
+      {
+       "item": "Gin",
+       "ml": 25
+      },
+      {
+       "item": "Campari",
+       "ml": 25
+      },
+      {
+       "item": "Sweet vermouth",
+       "ml": 20
+      },
+      {
+       "item": "Tawny port",
+       "ml": 10
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "winter",
+   "season": "winter",
+   "titles": [
+    "Winter Warmers",
+    "Deep Winter: Stirred & Strong",
+    "Fireside Classics"
+   ],
+   "library": [
+    "Hot Toddy",
+    "Irish Coffee",
+    "Old Fashioned",
+    "Manhattan",
+    "Boulevardier",
+    "Sazerac",
+    "Rusty Nail",
+    "Penicillin",
+    "Stinger",
+    "Alexander",
+    "Rum Toddy",
+    "Hot Chocolate to Die for",
+    "Godfather",
+    "Brooklyn",
+    "Old Pal",
+    "Winter Paloma"
+   ],
+   "specs": [
+    {
+     "id": "bb-hot-buttered-rum",
+     "name": "Hot Buttered Rum",
+     "spirit": "Rum",
+     "category": "Hot",
+     "glass": "Heatproof mug",
+     "garnish": "Grated nutmeg",
+     "method": "Mix butter and sugar with spices; add rum; top with hot water and stir.",
+     "ingredients": [
+      {
+       "item": "Aged rum",
+       "ml": 50
+      },
+      {
+       "item": "Spiced butter mix",
+       "amount": "1 tbsp"
+      },
+      {
+       "item": "Hot water",
+       "ml": 120
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "spring",
+   "season": "spring",
+   "titles": [
+    "Spring Florals",
+    "Garden Gin Season",
+    "Easter & Elderflower"
+   ],
+   "library": [
+    "Aviation",
+    "Clover Club",
+    "Elderflower Caipirinha",
+    "Lemon Elderflower Spritzer",
+    "Bramble",
+    "Gin Fizz",
+    "Ramos Gin Fizz",
+    "Honey Bee",
+    "Last Word",
+    "Pegu Club",
+    "Gimlet",
+    "Tom Collins",
+    "Mary Pickford",
+    "Rosemary Blue",
+    "Hemingway Special"
+   ],
+   "specs": [
+    {
+     "id": "bb-elderflower-collins",
+     "name": "Elderflower Collins",
+     "spirit": "Gin",
+     "category": "Highball",
+     "glass": "Highball",
+     "garnish": "Cucumber ribbon",
+     "method": "Build over ice, top with soda, stir gently.",
+     "ingredients": [
+      {
+       "item": "Gin",
+       "ml": 40
+      },
+      {
+       "item": "Elderflower cordial",
+       "ml": 15
+      },
+      {
+       "item": "Lemon juice",
+       "ml": 20
+      },
+      {
+       "item": "Soda water",
+       "ml": 80
+      }
+     ],
+     "label": "Bar Book recipe"
+    },
+    {
+     "id": "bb-rhubarb-gimlet",
+     "name": "Rhubarb Gimlet",
+     "spirit": "Gin",
+     "category": "Sour",
+     "glass": "Coupe",
+     "garnish": "Rhubarb ribbon",
+     "method": "Shake with ice, fine strain.",
+     "ingredients": [
+      {
+       "item": "Gin",
+       "ml": 50
+      },
+      {
+       "item": "Rhubarb syrup",
+       "ml": 20
+      },
+      {
+       "item": "Lime juice",
+       "ml": 15
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "summer",
+   "season": "summer",
+   "titles": [
+    "Summer Spritz & Highballs",
+    "Pimm's O'Clock",
+    "Frozen & Tropical"
+   ],
+   "library": [
+    "Aperol Spritz",
+    "Spritz",
+    "Mojito",
+    "Paloma",
+    "Tom Collins",
+    "Gin Tonic",
+    "Moscow Mule",
+    "Daiquiri",
+    "Frozen Daiquiri",
+    "Piña Colada",
+    "Caipirinha",
+    "Mai Tai",
+    "Sangria",
+    "Frosé",
+    "Hemingway Special",
+    "Raspberry Cooler",
+    "Virgin Mojito",
+    "Dark 'n' Stormy",
+    "Americano",
+    "Mimosa"
+   ],
+   "specs": [
+    {
+     "id": "bb-pimms-cup",
+     "name": "Pimm's Cup",
+     "spirit": "Other/Liqueur",
+     "category": "Highball",
+     "glass": "Highball",
+     "garnish": "Cucumber, strawberry, orange, mint",
+     "method": "Build over ice with the fruit, top with lemonade.",
+     "ingredients": [
+      {
+       "item": "Pimm's No.1",
+       "ml": 50
+      },
+      {
+       "item": "Lemonade (British, clear)",
+       "ml": 150
+      }
+     ],
+     "label": "Bar Book recipe"
+    },
+    {
+     "id": "bb-strawberry-spritz",
+     "name": "Strawberry Elderflower Spritz",
+     "spirit": "Wine/Sparkling",
+     "category": "Spritz",
+     "glass": "Wine glass",
+     "garnish": "Strawberry, mint",
+     "method": "Build over ice.",
+     "ingredients": [
+      {
+       "item": "Elderflower liqueur",
+       "ml": 30
+      },
+      {
+       "item": "Strawberry syrup",
+       "ml": 10
+      },
+      {
+       "item": "English sparkling wine",
+       "ml": 90
+      },
+      {
+       "item": "Soda water",
+       "ml": 30
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  },
+  {
+   "id": "autumn",
+   "season": "autumn",
+   "titles": [
+    "Autumn: Apple, Pear & Spice",
+    "Harvest Highballs",
+    "Orchard & Oak"
+   ],
+   "library": [
+    "Jack Rose Cocktail",
+    "Applecar",
+    "Penicillin",
+    "Old Fashioned",
+    "Whiskey Sour",
+    "Manhattan",
+    "Sidecar",
+    "Dark 'n' Stormy",
+    "Hot Toddy",
+    "Bramble",
+    "Blackthorn",
+    "Hunter's Moon",
+    "Spice 75",
+    "Figgy Thyme",
+    "Corpse Reviver",
+    "Boulevardier"
+   ],
+   "specs": [
+    {
+     "id": "bb-pear-ginger",
+     "name": "Pear & Ginger Highball",
+     "spirit": "Vodka",
+     "category": "Highball",
+     "glass": "Highball",
+     "garnish": "Pear slice",
+     "method": "Build over ice, top with ginger beer.",
+     "ingredients": [
+      {
+       "item": "Vodka",
+       "ml": 40
+      },
+      {
+       "item": "Pear liqueur",
+       "ml": 15
+      },
+      {
+       "item": "Lime juice",
+       "ml": 10
+      },
+      {
+       "item": "Ginger beer",
+       "ml": 100
+      }
+     ],
+     "label": "Bar Book recipe"
+    },
+    {
+     "id": "bb-apple-sour",
+     "name": "Spiced Apple Sour",
+     "spirit": "Brandy",
+     "category": "Sour",
+     "glass": "Coupe",
+     "garnish": "Apple slice, grated cinnamon",
+     "method": "Dry shake, then shake with ice; fine strain.",
+     "ingredients": [
+      {
+       "item": "Calvados",
+       "ml": 40
+      },
+      {
+       "item": "Pressed apple juice",
+       "ml": 30
+      },
+      {
+       "item": "Lemon juice",
+       "ml": 20
+      },
+      {
+       "item": "Cinnamon syrup",
+       "ml": 15
+      },
+      {
+       "item": "Egg white",
+       "ml": 20
+      }
+     ],
+     "label": "Bar Book recipe"
+    }
+   ]
+  }
+ ]
+}

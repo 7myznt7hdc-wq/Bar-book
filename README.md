@@ -24,3 +24,6 @@ Bump the cache version in `sw.js` after changing files.
 - Own recipes: optional photo, resized to 720 px JPEG and stored in localStorage.
 - No bar photos (licensing); bar pages use generated gradient headers.
 - Service worker caches viewed images (cache-first, max 250, `barbook-img-v1`).
+
+## Seasonal (v8)
+`data/seasonal.json` + `seasonal.js`: 10 drinks per fortnight from epoch 2026-01-05; dated events (Burns, Valentine's, Halloween, Bonfire Night, Christmas) win when the fortnight midpoint falls in their window, else UK season. Specs labelled "Bar Book recipe" are house specs. Test any date with `#seasonal/YYYY-MM-DD`.
