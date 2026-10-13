@@ -27,3 +27,6 @@ Bump the cache version in `sw.js` after changing files.
 
 ## Seasonal (v8)
 `data/seasonal.json` + `seasonal.js`: 10 drinks per fortnight from epoch 2026-01-05; dated events (Burns, Valentine's, Halloween, Bonfire Night, Christmas) win when the fortnight midpoint falls in their window, else UK season. Specs labelled "Bar Book recipe" are house specs. Test any date with `#seasonal/YYYY-MM-DD`.
+
+## Favourites (v9)
+`favs.js`: heart on every card/detail (keys c:/m:/s:), localStorage `barbook-favs`, included in My Recipes export/import. Nav: 5 tabs; "Saved" tab holds a Favourites | My recipes toggle.

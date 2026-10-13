@@ -13,11 +13,11 @@ async function seasonal(dateArg){if(!SEA)SEA=await fetch('data/seasonal.json').t
  const today=dateArg&&/^\d{4}-\d{2}-\d{2}$/.test(dateArg)?Math.floor(Date.parse(dateArg+'T00:00:00Z')/DAY):dayNum(new Date());
  const ep=Math.floor(Date.parse(SEA.epoch+'T00:00:00Z')/DAY),f=Math.floor((today-ep)/14),cur=fortnight(f),nx=fortnight(f+1),left=cur.end+1-today;
  if(!location.hash.startsWith('#seasonal'))return;
- const tile=c=>c._spec?`<a class=tile href="#sspec/${c.id}">${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class="tag house">Bar Book recipe</span></div></div></a>`:`<a class=tile href="${link(c)}">${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class=tag>${esc(c.spirit)}</span></div></div></a>`;
+ const tile=c=>c._spec?`<a class=tile href="#sspec/${c.id}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class="tag house">Bar Book recipe</span></div></div></a>`:`<a class=tile href="${link(c)}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class=tag>${esc(c.spirit)}</span></div></div></a>`;
  app.innerHTML=`<section class=hero-s><p class=eyebrow>Seasonal · ${fmt(cur.start)} – ${fmt(cur.end)}</p><h1 class=display>${esc(cur.title)}</h1>
  <p class=countdown><span>Changes in <b>${left} day${left==1?'':'s'}</b></span></p></section>
  <div class=grid>${cur.picks.map(tile).join('')}</div>
  <h4 class=eyebrow>Next up · from ${fmt(nx.start)}</h4><div class="sig peek"><h3>${esc(nx.title)}</h3><p class=muted>${nx.picks.slice(0,4).map(c=>esc(c.name)).join(' · ')}${nx.picks.length>4?' …':''}</p></div>
  <p class="muted small">Rotates automatically every two weeks (UK seasons + Burns Night, Valentine's, Halloween, Bonfire Night, Christmas). “Bar Book recipe” = our own house spec.</p>`}
 async function sspec(id){if(!SEA)SEA=await fetch('data/seasonal.json').then(r=>r.json());const s=SEA.periods.flatMap(p=>p.specs).find(x=>x.id==id);if(!s)return seasonal();
- cocktail(null,{...s,notes:'Bar Book recipe – a house seasonal spec, not taken from any bar or database.'});const b=app.querySelector('.back');if(b){b.href='#seasonal';b.textContent='‹ Seasonal'}}
+ cocktail(null,{...s,_spec:true,notes:'Bar Book recipe – a house seasonal spec, not taken from any bar or database.'});const b=app.querySelector('.back');if(b){b.href='#seasonal';b.textContent='‹ Seasonal'}}
