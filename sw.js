@@ -1,4 +1,4 @@
-const V='barbook-v6',IMG='barbook-img-v1',MAXIMG=250;
+const V='barbook-v7',IMG='barbook-img-v1',MAXIMG=250;
 const F=['./','index.html','style.css','app.js','features.js','manifest.json','icon-192.png','icon-512.png','data/cocktails.json','data/bars.json','data/classics.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(F)));self.skipWaiting()});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!=V&&x!=IMG).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
