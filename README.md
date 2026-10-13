@@ -14,4 +14,6 @@ Run locally: `python3 -m http.server 8080` here, open http://localhost:8080 (ins
 
 ## Features
 Search + spirit + category filters; bar pages; "Been there" (visited, date, note) stored in localStorage on the device.
+My Recipes (#mine): add/edit/delete own drinks in localStorage, "Mine" badge + "★ My recipes" filter, JSON export/import backup.
+Pre-batch (#batch): scale any recipe by serves or target volume, dilution %, pour per serve.
 Bump the cache version in `sw.js` after changing files.
