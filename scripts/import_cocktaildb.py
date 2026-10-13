@@ -26,9 +26,10 @@ def spirit(ings,alc):
   return 'Other/Liqueur'
 base=json.load(open(ROOT/'data/classics.json'))['cocktails']
 for c in base: c.setdefault('category','Classic'); c['source']='Bar Book house spec'
-names={c['name'].lower() for c in base};out=list(base)
+names={c['name'].lower() for c in base};out=list(base);allcdb=[]
 for l in string.ascii_lowercase+string.digits:
   for d in get(l):
+    allcdb.append(d)
     if d['strDrink'].lower() in names: continue
     names.add(d['strDrink'].lower());ings=[]
     for k in range(1,16):
@@ -38,7 +39,13 @@ for l in string.ascii_lowercase+string.digits:
       ings.append({'item':i.strip(),'ml':ml} if ml is not None else {'item':i.strip(),'amount':m or 'to taste'})
     cat=d.get('strCategory') or 'Other'
     if d.get('strAlcoholic')=='Non alcoholic': cat='Mocktail'
-    out.append({'name':d['strDrink'],'spirit':spirit([x['item'] for x in ings],d.get('strAlcoholic')),'category':cat,'glass':d.get('strGlass') or '','garnish':'','method':(d.get('strInstructions') or '').strip(),'ingredients':ings,'source':f"https://www.thecocktaildb.com/drink/{d['idDrink']}"})
+    out.append({'name':d['strDrink'],'spirit':spirit([x['item'] for x in ings],d.get('strAlcoholic')),'category':cat,'glass':d.get('strGlass') or '','garnish':'','method':(d.get('strInstructions') or '').strip(),'ingredients':ings,'source':f"https://www.thecocktaildb.com/drink/{d['idDrink']}",**({'img':d['strDrinkThumb']} if d.get('strDrinkThumb') else {})})
+import re
+N=lambda s:re.sub(r'[^a-z0-9]','',s.lower().replace('whisky','whiskey').replace('ñ','n').replace("'n'",'and'))
+BN={N(d['strDrink']):d for d in allcdb};AL={'drymartini':'martini'}
+for c in base:
+  d=BN.get(N(c['name'])) or BN.get(AL.get(N(c['name']),''))
+  if d and d.get('strDrinkThumb'): c['img']=d['strDrinkThumb'];c['imgSource']=f"https://www.thecocktaildb.com/drink/{d['idDrink']}"
 out.sort(key=lambda c:c['name'].lower())
 json.dump({'units':'ml (converted: 1 oz = 30 ml, 1 cl = 10 ml, tsp 5 ml, tbsp 15 ml)','sources':['Bar Book house specs','TheCocktailDB (thecocktaildb.com) free API'],'cocktails':out},open(ROOT/'data/cocktails.json','w'),ensure_ascii=False,indent=1)
 print(len(out),'cocktails')

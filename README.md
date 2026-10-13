@@ -17,3 +17,10 @@ Search + spirit + category filters; bar pages; "Been there" (visited, date, note
 My Recipes (#mine): add/edit/delete own drinks in localStorage, "Mine" badge + "★ My recipes" filter, JSON export/import backup.
 Pre-batch (#batch): scale any recipe by serves or target volume, dilution %, pour per serve.
 Bump the cache version in `sw.js` after changing files.
+
+## Images (v6)
+- Drink photos: TheCocktailDB `strDrinkThumb` (lists use `/preview`, detail pages full size, lazy-loaded). Same licence caveat as above.
+- 27 of the 38 house specs matched by name to TheCocktailDB photos (`imgSource`); the rest use generated SVG art (glass by glass type, colour by spirit).
+- Own recipes: optional photo, resized to 720 px JPEG and stored in localStorage.
+- No bar photos (licensing); bar pages use generated gradient headers.
+- Service worker caches viewed images (cache-first, max 250, `barbook-img-v1`).
