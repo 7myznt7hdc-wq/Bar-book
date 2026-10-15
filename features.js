@@ -13,7 +13,7 @@ for(const x of r){if(!x||!x.name||!Array.isArray(x.ingredients))continue;const c
 const fv=(Array.isArray(d.favourites)?d.favourites:[]).filter(k=>typeof k=='string'&&/^[cms]:/.test(k)).map(k=>k.startsWith('m:')&&idmap[k.slice(2)]?'m:'+idmap[k.slice(2)]:k);const nf=fv.filter(k=>!favs().includes(k)).length;saveFavs([...favs(),...fv]);
 saveMine(cur);mineList();document.getElementById('msg').textContent=`Imported ${n} recipe(s) and ${nf} favourite(s).`}catch(e){document.getElementById('msg').textContent='Import failed: '+e.message}}}
 const ingRow=(i={})=>`<div class=ing><input class=ii placeholder="Ingredient" value="${esc(i.item||'')}"><input class=im type=number inputmode=decimal step=any min=0 placeholder="ml" value="${i.ml??''}"><input class=ia placeholder="or e.g. 2 dashes" value="${esc(i.amount||'')}"><button type=button class=x onclick="this.parentNode.remove()">✕</button></div>`;
-function editMine(id){const c=id=='new'?{ingredients:[{},{},{}]}:mine().find(x=>x.id==id);if(!c)return mineList();const opt=(l,v)=>l.map(o=>`<option ${o==v?'selected':''}>${esc(o)}</option>`).join('');
+function editMine(id){const c=id=='new'?{ingredients:[{},{},{}]}:mine().find(x=>x.id==id);if(!c)return notFound({kind:'recipe',id},'#mine','My recipes');const opt=(l,v)=>l.map(o=>`<option ${o==v?'selected':''}>${esc(o)}</option>`).join('');
 let photo=c.photo||'';app.innerHTML=`<a class=backl href="#mine">‹ My Recipes</a><h1 class=display>${id=='new'?'New recipe':'Edit recipe'}</h1><form id=f class="form panel"><div class=photo-pick><img id=pp alt=""><div><label class="btn ghost">📷 ${c.photo?'Change':'Add'} photo<input type=file id=pf accept="image/*" hidden></label><button type=button id=prm class="btn ghost">Remove</button><p class="muted small">Optional · resized &amp; stored on this device</p></div></div>
 <input id=fn required placeholder="Name" value="${esc(c.name||'')}"><div class=controls><select id=fs>${opt(SPIRITS,c.spirit)}</select><select id=fc>${opt(CATS,c.category)}</select></div>
 <h4>Ingredients</h4><div id=ings>${c.ingredients.map(ingRow).join('')}</div><button type=button id=addi>+ Ingredient</button>
@@ -30,7 +30,7 @@ const a=mine().filter(x=>x.id!=r.id);a.push(r);try{saveMine(a)}catch(e){err.text
 function delMine(id){if(!confirm('Delete this recipe?'))return;saveMine(mine().filter(x=>x.id!=id));saveFavs(favs().filter(k=>k!='m:'+id));location.hash='#mine'}
 // ---- Pre-batch ----
 const r1=x=>Math.round(x*10)/10;
-function batch(a){let c=null;if(a){c=a.startsWith('my:')?C.find(x=>x.mine&&x.id==a.slice(3)):C.find(x=>x.name==a&&!x.mine)}
+function batch(a){let c=null;if(a){c=a.startsWith('my:')?C.find(x=>x.mine&&x.id==a.slice(3)):C.find(x=>x.name==a&&!x.mine);if(!c)return notFound({kind:'cocktail',id:a.replace(/^my:/,'')},'#batch','Batch')}
 const ing=c?c.ingredients:[{},{},{}];const stirred=c?/stir/i.test(c.method||''):true;
 app.innerHTML=`${c?`<a class=backl href="${c.mine?'#my/'+c.id:'#cocktail/'+encodeURIComponent(c.name)}">‹ ${esc(c.name)}</a>`:''}<section class=hero-s><p class=eyebrow>Tool</p><h1 class=display>Pre-batch${c?`<span class=sub>${esc(c.name)}</span>`:''}</h1></section>
 <p class=muted>${c?'Edit amounts if needed.':'Enter a recipe for ONE serve.'} Non-ml items (dashes etc.) are shown as “× serves”, not counted in volume.</p>

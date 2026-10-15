@@ -19,5 +19,5 @@ async function seasonal(dateArg){if(!SEA)SEA=await fetch('data/seasonal.json').t
  <div class=grid>${cur.picks.map(tile).join('')}</div>
  <h4 class=eyebrow>Next up · from ${fmt(nx.start)}</h4><div class="sig peek"><h3>${esc(nx.title)}</h3><p class=muted>${nx.picks.slice(0,4).map(c=>esc(c.name)).join(' · ')}${nx.picks.length>4?' …':''}</p></div>
  <p class="muted small">Rotates automatically every two weeks (UK seasons + Burns Night, Valentine's, Halloween, Bonfire Night, Christmas). “Bar Book recipe” = our own house spec.</p>`}
-async function sspec(id){if(!SEA)SEA=await fetch('data/seasonal.json').then(r=>r.json());const s=SEA.periods.flatMap(p=>p.specs).find(x=>x.id==id);if(!s)return seasonal();
+async function sspec(id){if(!SEA)SEA=await fetch('data/seasonal.json').then(r=>r.json());const s=SEA.periods.flatMap(p=>p.specs).find(x=>x.id==id);if(!s)return notFound({kind:'seasonal recipe',id},'#seasonal','Seasonal');
  cocktail(null,{...s,_spec:true,notes:'Bar Book recipe – a house seasonal spec, not taken from any bar or database.'});const b=app.querySelector('.back');if(b){b.href='#seasonal';b.textContent='‹ Seasonal'}}
