@@ -1,0 +1,48 @@
+name: Refresh 50 Best Bars list
+# Weekly during list season (Sept-Nov) plus manual runs. Commits ONLY if the script parsed exactly
+# 50 bars for a NEW list year; sourced signature cocktails are kept. The push triggers the Pages deploy.
+on:
+  schedule:
+    - cron: '17 6 * 9-11 1'   # Mondays 06:17 UTC, Sep–Nov
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Parse only, do not commit'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: refresh-bars
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh list
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/refresh_bars.py --dry-run
+          else
+            python3 scripts/refresh_bars.py
+          fi
+      - name: Validate JSON
+        run: python3 -c "import json;d=json.load(open('data/bars.json'));assert len(d['bars'])==50 and [b['rank'] for b in d['bars']]==list(range(1,51))"
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/bars.json; then echo "No change."; exit 0; fi
+          # bump the service-worker cache so installed apps pick up the new list
+          python3 - <<'PY'
+          import re,pathlib
+          p=pathlib.Path('sw.js');s=p.read_text()
+          s=re.sub(r"barbook-v(\d+)",lambda m:f"barbook-v{int(m[1])+1}",s,count=1);p.write_text(s)
+          PY
+          git config user.name "bar-book-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bars.json sw.js
+          git commit -m "Update World's 50 Best Bars list (automated)"
+          git push

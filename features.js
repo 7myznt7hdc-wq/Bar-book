@@ -47,10 +47,10 @@ const per=rows.reduce((s,r)=>s+(isFinite(r.ml)?r.ml:0),0),d=Math.max(0,parseFloa
 if(!per){out.innerHTML='<p class=muted>Add ml amounts to calculate.</p>';return}
 const vol=document.querySelector('[name=mode]:checked').value=='vol';let n=vol?(parseFloat(bv.value)||0)/perD:Math.max(0,parseFloat(bs.value)||0);
 const water=per*d*n,total=perD*n;
-out.innerHTML=`<table><tr><th>Ingredient</th><th>Per serve</th><th>Batch</th></tr>${rows.map(r=>`<tr><td>${esc(r.item)}</td><td>${isFinite(r.ml)?r1(r.ml)+' ml':esc(r.amount||'–')}</td><td><b>${isFinite(r.ml)?r1(r.ml*n)+' ml':'×'+r1(n)+' '+esc(r.amount||'')}</b></td></tr>`).join('')}
-${d?`<tr><td>Water (dilution ${r1(d*100)}%)</td><td>${r1(per*d)} ml</td><td><b>${r1(water)} ml</b></td></tr>`:''}
-<tr class=tot><td>Total</td><td>${r1(perD)} ml</td><td><b>${r1(total)} ml</b></td></tr></table>
-<p class=big>${vol?`Makes <b>${r1(n)}</b> serves`:`<b>${r1(n)}</b> serves`} · Pour <b>${r1(perD)} ml</b> per serve</p>`};
+out.innerHTML=`<table><tr><th>Ingredient</th><th>Per serve</th><th>Batch</th></tr>${rows.map(r=>`<tr><td>${esc(r.item)}</td><td>${isFinite(r.ml)?fmtMl(r.ml):esc(r.amount||'–')}</td><td><b>${isFinite(r.ml)?fmtMl(r.ml*n):'×'+r1(n)+' '+esc(r.amount||'')}</b></td></tr>`).join('')}
+${d?`<tr><td>Water (dilution ${r1(d*100)}%)</td><td>${fmtMl(per*d)}</td><td><b>${fmtMl(water)}</b></td></tr>`:''}
+<tr class=tot><td>Total</td><td>${fmtMl(perD)}</td><td><b>${fmtMl(total)}</b></td></tr></table>
+<p class=big>${vol?`Makes <b>${r1(n)}</b> serves`:`<b>${r1(n)}</b> serves`} · Pour <b>${fmtMl(perD)}</b> per serve</p>${costBox(rows.filter(r=>isFinite(r.ml)).map(r=>({item:r.item,ml:r.ml})),n,'per batch')}${costBox(rows.filter(r=>isFinite(r.ml)).map(r=>({item:r.item,ml:r.ml})),1,'per serve')}`};
 const bind=()=>app.querySelectorAll('input,select').forEach(e=>{e.oninput=e.onchange=calc});
 bp.onchange=()=>{if(bp.value){bv.value=bp.value;document.querySelector('[value=vol]').checked=true}calc()};
 bind();bp.onchange=()=>{if(bp.value){bv.value=bp.value;document.querySelector('[value=vol]').checked=true}calc()};bv.addEventListener('input',()=>document.querySelector('[value=vol]').checked=true);bs.addEventListener('input',()=>document.querySelector('[value=serves]').checked=true);calc()}

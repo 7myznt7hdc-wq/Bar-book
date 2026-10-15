@@ -171,8 +171,9 @@
    "signatureCocktails": [
     {
      "name": "Z&T",
-     "description": "Seasonal G&T made entirely in-house: house-distilled gin with seasonal fruit/botanicals and house-carbonated tonic (from search summary).",
-     "source": "https://www.tatlerasia.com/dining/drinks/zest-bar-seoul-sustainability-interview"
+     "description": "Seasonal gin & tonics (\"Z and T\"): the gin is changed every season, made in-house with seasonal fruits and herbs; tonic made in-house.",
+     "source": "https://www.tatlerasia.com/dining/drinks/zest-bar-seoul-sustainability-interview",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -199,8 +200,9 @@
    "signatureCocktails": [
     {
      "name": "Three Sips Martini",
-     "description": "Peruvian coastal hills distillate, sherry, extra-dry vermouth; three garnishes (Arequipa olive, sea lettuce, trout caviar) (from search summary).",
-     "source": "https://www.theworlds50best.com/stories/News/the-buzz-about-limas-lady-bee.html"
+     "description": "Botanical Dry Martini riff: Coastal Hills distillate (sugar cane & botanicals), sherry, extra-dry vermouth; paired with an Arequipa olive, lechuga de mar algae and Puno trout caviar.",
+     "source": "https://www.theworlds50best.com/stories/News/the-buzz-about-limas-lady-bee.html",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -213,8 +215,9 @@
    "signatureCocktails": [
     {
      "name": "Maurito",
-     "description": "Siete Misterios Doba Yej mezcal, Lillet Blanc, fino sherry, carbonated guava (from search summary).",
-     "source": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/bar-mauro"
+     "description": "Iconic drink of the \"Sabores Legendarios\" list: clear and bubbly, with mezcal, Lillet Blanc, sherry and a touch of guava.",
+     "source": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/bar-mauro",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -227,8 +230,9 @@
    "signatureCocktails": [
     {
      "name": "Schmuck Martini",
-     "description": "Fords gin, shōchū, Blanche de Normandie, blanc & dry vermouth; olive, lemon oils, olive oil drops on the side (from search summary).",
-     "source": "https://vinepair.com/articles/2025-next-wave-schmuck/"
+     "description": "Five equal parts: Fords gin, shōchū, Blanche de Normandie, blanc vermouth, dry vermouth. Olive, lemon oils, three drops of olive oil (dropper on the side). Won VinePair 2025 Martini Madness.",
+     "source": "https://vinepair.com/articles/2025-next-wave-schmuck/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -241,8 +245,9 @@
    "signatureCocktails": [
     {
      "name": "Ango",
-     "description": "Flor de Caña rum, aged balsamic reduction, lime, beet juice (from search summary).",
-     "source": "https://hopeandsesame.cn/hssz-ango/"
+     "description": "Described by the bar as \"a super iconic cocktail from Hope & Sesame Guangzhou: rich, complex, bitter, sweet\". Ingredients not listed on the source page.",
+     "source": "https://hopeandsesame.cn/hssz-ango/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -255,8 +260,9 @@
    "signatureCocktails": [
     {
      "name": "Cigarette After Sex",
-     "description": "Only drink on the menu since opening: agua de Jamaica, Elephant sloe gin, Del Maguey Vida mezcal (from search summary).",
-     "source": "https://www.spiriteddrinks.com/cambridge-public-house-paris/"
+     "description": "The only cocktail that has never left the menu: long, fresh and dry; agua de Jamaica, mezcal and sloe gin.",
+     "source": "https://www.spiriteddrinks.com/cambridge-public-house-paris/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -269,8 +275,9 @@
    "signatureCocktails": [
     {
      "name": "Super Lychee Martini",
-     "description": "Named as a signature (no spec in source summary).",
-     "source": "https://barsforkings.com/bars/new-york/sip-and-guzzle/"
+     "description": "Upstairs (Guzzle): The SG Shochu Kome, lychee, vodka, raspberry, grapefruit and rose.",
+     "source": "https://barsforkings.com/bars/new-york/sip-and-guzzle/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -283,8 +290,9 @@
    "signatureCocktails": [
     {
      "name": "Gustave",
-     "description": "Klimt-inspired agave old fashioned with gold leaf and a subtle cheese note (from search summary).",
-     "source": "https://barmag.fr/bar-nouveau-entre-art-et-cocktails-paris/"
+     "description": "House signature (homage to Klimt): gold-leaf garnish, a light cheese note and a very silky texture – \"a sort of agave old fashioned\".",
+     "source": "https://barmag.fr/bar-nouveau-entre-art-et-cocktails-paris/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -296,9 +304,10 @@
    "country": "Spain",
    "signatureCocktails": [
     {
-     "name": "Primordial",
-     "description": "Macallan 12, ruby port, nashi pear; served in metal-cast hands (from search summary).",
-     "source": "https://www.cntraveler.com/story/sips-barcelona-menu"
+     "name": "Compressed",
+     "description": "Macallan 12, palo cortado sherry and peach (fruit and juice) – \"a sunset from Jeréz\".",
+     "source": "https://www.cntraveler.com/story/sips-barcelona-menu",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -311,8 +320,19 @@
    "signatureCocktails": [
     {
      "name": "Mediterranean Treasure",
-     "description": "Ketel One, oyster-leaf fino sherry, elderflower liqueur, lemon, agave, coriander, egg white; served in a smoke-filled treasure chest (from search summary).",
-     "source": "https://hauteliving.com/2025/06/unlock-the-secrets-of-the-mediterranean-treasure-at-paradiso-barcelona/772838/"
+     "description": "Ketel One, fino sherry, elderflower liqueur, coriander, oyster leaf, lemon, honey, egg white. Dry shake, shake, double strain. (Units other than ml for vodka/lemon not stated in source; listed as published.)",
+     "source": "https://hauteliving.com/2025/06/unlock-the-secrets-of-the-mediterranean-treasure-at-paradiso-barcelona/772838/",
+     "verified": "2026-10-15",
+     "spec": [
+      "50 ml Ketel One vodka",
+      "15 fino sherry",
+      "10 elderflower liqueur",
+      "4 coriander leaves",
+      "1 oyster leaf",
+      "30 ml lemon",
+      "25 honey",
+      "20 egg white"
+     ]
     }
    ],
    "signatureStatus": "sourced"
@@ -325,8 +345,16 @@
    "signatureCocktails": [
     {
      "name": "Singapore Sling riff",
-     "description": "Recipe published by Imbibe (not checked in detail).",
-     "source": "https://imbibemagazine.com/recipe/jigger-pony-singapore-sling/"
+     "description": "Pineapple & lapsang souchong-infused gin, Cherry Heering, lime, rhubarb purée, soda. Shake (not soda), strain over ice, top with soda. Highball; cherry, orange slice, mint. (Source in oz; converted at 30 ml/oz.)",
+     "source": "https://imbibemagazine.com/recipe/jigger-pony-singapore-sling/",
+     "verified": "2026-10-15",
+     "spec": [
+      "45 ml pineapple & lapsang souchong-infused gin",
+      "15 ml Cherry Heering",
+      "15 ml fresh lime juice",
+      "22.5 ml rhubarb purée",
+      "Soda water to top"
+     ]
     }
    ],
    "signatureStatus": "sourced"
@@ -339,8 +367,9 @@
    "signatureCocktails": [
     {
      "name": "The Yellow House",
-     "description": "Tequila, mezcal, tepache, Dijon mustard, black garlic (from search summary).",
-     "source": "https://int.fnl-guide.com/int/en/the-bars/the-bar-in-front-of-the-bar/"
+     "description": "Tequila, mezcal, tepache, Dijon mustard and black garlic.",
+     "source": "https://int.fnl-guide.com/int/en/the-bars/the-bar-in-front-of-the-bar/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -353,8 +382,9 @@
    "signatureCocktails": [
     {
      "name": "Kakau",
-     "description": "Bourbon, Roku gin, Campari, vermouths, rooibos, chocolate, orange (from search summary).",
-     "source": "https://www.baressp.com.br/bares/eximia-bar"
+     "description": "Maker's Mark bourbon, Roku gin, Campari, vermouth blend, rooibos, 70% chocolate, orange.",
+     "source": "https://www.baressp.com.br/bares/eximia-bar",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -367,8 +397,9 @@
    "signatureCocktails": [
     {
      "name": "Julep de D10S",
-     "description": "House Licor del Norte, amari, strawberry miso, grapefruit (from search summary).",
-     "source": "https://www.enprimeurclub.com/bars/tres-monos-buenos-aires"
+     "description": "House Licor del Norte (three Argentine herbs), amari, strawberry miso, grapefruit.",
+     "source": "https://www.enprimeurclub.com/bars/tres-monos-buenos-aires",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -395,8 +426,9 @@
    "signatureCocktails": [
     {
      "name": "Betterave",
-     "description": "Seasonal, ingredient-named menu; e.g. beetroot spirit, sloe brandy, vermouth (from search summary).",
-     "source": "https://www.cntraveler.com/bars/paris/bar-de-vie"
+     "description": "Drinks are named for their main ingredient; the betterave (beetroot) mixes house beet spirit, sloe brandy and vermouth.",
+     "source": "https://www.cntraveler.com/bars/paris/bar-de-vie",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -409,8 +441,9 @@
    "signatureCocktails": [
     {
      "name": "Brunost",
-     "description": "Aquavit, Armagnac, dry vermouth, brown-cheese syrup; brown cheese & rosemary garnish (from search summary).",
-     "source": "https://punchdrink.com/articles/behind-himkok-norway-menu-best-cocktail-bars-oslo/"
+     "description": "Brown-cheese (\"brunost\") cocktail, rounded out with Armagnac – stirred, rich, not too sweet; garnished with brown cheese.",
+     "source": "https://punchdrink.com/articles/behind-himkok-norway-menu-best-cocktail-bars-oslo/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -423,12 +456,9 @@
    "signatureCocktails": [
     {
      "name": "Argo Martini",
-     "description": "Frozen bespoke Argo gin with a chilled seasonal hydrosol, no vermouth, poured tableside (from search summary).",
+     "description": "No vermouth: 30 ml of the guest's chosen chilled hydrosol (citrus or savoury) in a frozen glass, with frozen gin poured tableside. Gin quantity not stated in source.",
      "source": "https://www.scmp.com/lifestyle/100-top-tables/article/3314898/drink-focus-argo-martini-argo",
-     "spec": [
-      "70 ml Argo gin",
-      "30 ml seasonal hydrosol"
-     ]
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -441,8 +471,9 @@
    "signatureCocktails": [
     {
      "name": "Sakura (house Negroni)",
-     "description": "Citadelle gin, sweet vermouth, Campari, umeshu, sakura (from search summary).",
-     "source": "https://barmagazine.com/danico-paris-10th-anniversary-best-of-cocktail-menu"
+     "description": "2024–25 signature Negroni: Citadelle gin, sweet vermouth, Campari, umeshu, sakura.",
+     "source": "https://barmagazine.com/danico-paris-10th-anniversary-best-of-cocktail-menu",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -455,8 +486,9 @@
    "signatureCocktails": [
     {
      "name": "Morning Tijuana",
-     "description": "'Super Classic': mezcal Margarita × Breakfast Martini with strawberry and paprika (from search summary).",
-     "source": "https://www.theinfatuation.com/bangkok/reviews/dry-wave-cocktail-studio"
+     "description": "Mezcal Margarita × Breakfast Martini with a strong hit of strawberry and paprika.",
+     "source": "https://www.theinfatuation.com/bangkok/reviews/dry-wave-cocktail-studio",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -469,8 +501,9 @@
    "signatureCocktails": [
     {
      "name": "Chingatu Marita",
-     "description": "Named as a signature (no spec in source summary).",
-     "source": "https://www.enprimeurclub.com/bars/el-gallo-altanero-guadalajara"
+     "description": "Listed as a signature pour (no ingredients given in source).",
+     "source": "https://www.enprimeurclub.com/bars/el-gallo-altanero-guadalajara",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -483,8 +516,9 @@
    "signatureCocktails": [
     {
      "name": "East 8 Hold-Up",
-     "description": "Daily-changing menu; listed signature: vodka, Aperol, pineapple, lime (from search summary).",
-     "source": "https://www.theworlds50best.com/bars/best-in-the-world/the-list/satans-whiskers.html"
+     "description": "Vodka, Aperol, pineapple, lime juice – created by Kevin Armstrong.",
+     "source": "https://www.theworlds50best.com/bars/best-in-the-world/the-list/satans-whiskers.html",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -520,8 +554,9 @@
    "signatureCocktails": [
     {
      "name": "Matcha Old Fashioned",
-     "description": "Evergreen signature: Japanese whisky, matcha, honey (from search summary).",
-     "source": "https://www.cntraveller.com/article/waltz-london-bar"
+     "description": "Evergreen signature: Japanese whisky, matcha, honey.",
+     "source": "https://www.cntraveller.com/article/waltz-london-bar",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -534,8 +569,9 @@
    "signatureCocktails": [
     {
      "name": "Foglia",
-     "description": "Gin, hemp, mint, basil, lemon (from search summary).",
-     "source": "https://www.identitagolose.it/sito/it/462/35471/locali/locale.html"
+     "description": "Named the \"most creative\" cocktail: gin, hemp, mint, basil, lemon. The guide names No Cloud in Mexico (tequila, timut pepper, lemon) as the signature.",
+     "source": "https://www.identitagolose.it/sito/it/462/35471/locali/locale.html",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -548,8 +584,9 @@
    "signatureCocktails": [
     {
      "name": "Ritual",
-     "description": "Whisky, yuzu honey, green-tea umeshu, sansho pepper, black-rice water (from search summary).",
-     "source": "https://www.enprimeurclub.com/bars/mirror-bar-bratislava"
+     "description": "Listed among signature pours (Ritual, Lux, Marble, Geisha, Elementum); ingredients not given in source.",
+     "source": "https://www.enprimeurclub.com/bars/mirror-bar-bratislava",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -562,8 +599,9 @@
    "signatureCocktails": [
     {
      "name": "Cornfield",
-     "description": "Johnnie Walker Black, aged rum, baru infusion, white-chocolate popcorn (from search summary).",
-     "source": "https://themixingnotes.com/cities/sao-paulo/tan-tan/menu"
+     "description": "Johnnie Walker Black Label, aged rum, baru nut infusion, popcorn. 24% ABV, R$78.",
+     "source": "https://themixingnotes.com/cities/sao-paulo/tan-tan/menu",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -576,8 +614,16 @@
    "signatureCocktails": [
     {
      "name": "Montana Daiquiri",
-     "description": "Rum, lime, maraschino, float of kirsch eau-de-vie (from search summary).",
-     "source": "https://imbibemagazine.com/recipe/montana-daiquiri/"
+     "description": "White rum (Havana Club), lime, rich syrup, maraschino; framboise eau de vie floated on top. Coupe, cherry at the bottom. (Source in oz/tsp; converted at 30 ml/oz, 5 ml/tsp.)",
+     "source": "https://imbibemagazine.com/recipe/montana-daiquiri/",
+     "verified": "2026-10-15",
+     "spec": [
+      "52.5 ml white rum",
+      "22.5 ml fresh lime juice",
+      "10 ml rich simple syrup (2:1)",
+      "5 ml maraschino liqueur",
+      "5 ml framboise eau de vie (float)"
+     ]
     }
    ],
    "signatureStatus": "sourced"
@@ -590,8 +636,9 @@
    "signatureCocktails": [
     {
      "name": "Mrs. Martínez",
-     "description": "Intira gin, strawberry-infused Aperol, mandarin lime, blueberries, bitter lemon (from search summary).",
-     "source": "https://www.thespiritsbusiness.com/2025/07/sastreria-martinez-unveils-new-cocktail-menu/"
+     "description": "Updated 2025 version: Peruvian gin Intira, strawberry-infused Aperol, mandarin lime, blueberries, bitter lemon.",
+     "source": "https://www.thespiritsbusiness.com/2025/07/sastreria-martinez-unveils-new-cocktail-menu/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -601,14 +648,8 @@
    "name": "Nutmeg & Clove",
    "city": "Singapore",
    "country": "Singapore",
-   "signatureCocktails": [
-    {
-     "name": "Nutmeg & Clove",
-     "description": "Eponymous signature, served with a childhood chocolate biscuit (from search summary).",
-     "source": "https://www.diffordsguide.com/bars/v9WKL9/nutmeg-and-clove"
-    }
-   ],
-   "signatureStatus": "sourced"
+   "signatureCocktails": [],
+   "signatureStatus": "unknown"
   },
   {
    "rank": 39,
@@ -618,8 +659,9 @@
    "signatureCocktails": [
     {
      "name": "La Chicha",
-     "description": "Vodka, pineapple pickled in plantain vinegar, mirin (from search summary).",
-     "source": "https://menutotaste.com/restaurants/bar-carmen-medellin"
+     "description": "Vodka with pineapple pickled in plantain vinegar and mirin; bar director's most recommended drink.",
+     "source": "https://menutotaste.com/restaurants/bar-carmen-medellin",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -632,8 +674,17 @@
    "signatureCocktails": [
     {
      "name": "Mayans Punch",
-     "description": "Clarified milk punch: reposado tequila, tepache, passion-fruit cordial, coffee distillate, lime (from search summary).",
-     "source": "https://australianbartender.com.au/2026/09/15/mayans-punch-barro-negro-athens-mexican-inspired-take-on-a-classic-punch/"
+     "description": "Clarified punch: combine, pour into 25 ml milk, strain through cheesecloth.",
+     "source": "https://australianbartender.com.au/2026/09/15/mayans-punch-barro-negro-athens-mexican-inspired-take-on-a-classic-punch/",
+     "verified": "2026-10-15",
+     "spec": [
+      "30 ml tequila reposado",
+      "30 ml tepache",
+      "25 ml passion-fruit cordial",
+      "5 ml coffee distillate",
+      "5 ml fresh lime juice",
+      "25 ml milk (for clarifying)"
+     ]
     }
    ],
    "signatureStatus": "sourced"
@@ -646,8 +697,9 @@
    "signatureCocktails": [
     {
      "name": "Watermelon Koffeezz",
-     "description": "Clarified watermelon, light-roast Tokyo coffee, gin; fizz style (from search summary).",
-     "source": "https://www.eater.com/venue/931598/gokan"
+     "description": "Light-roast coffee from Tokyo's Koffee Mameya, clarified watermelon juice and gin.",
+     "source": "https://www.eater.com/venue/931598/gokan",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -660,8 +712,9 @@
    "signatureCocktails": [
     {
      "name": "Nara Nara Martini",
-     "description": "Ume-infused gin, hint of vermouth; frozen in ice block, carved tableside, ~-20°C (from search summary).",
-     "source": "https://www.the50.com/bars/best-in-the-world/the-list/mimi-kakushi.html"
+     "description": "A dry martini pre-batched in a small bottle frozen in a block of ice, carved out tableside and poured at -20°C into a frozen glass.",
+     "source": "https://www.the50.com/bars/best-in-the-world/the-list/mimi-kakushi.html",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -674,8 +727,9 @@
    "signatureCocktails": [
     {
      "name": "NU FASHION",
-     "description": "Signature since opening: rye & bourbon, blended vermouth, ginger, lime, bitters (from search summary).",
-     "source": "https://nouvellevaguetirana.com/menu/"
+     "description": "\"Our signature since day one\": Old Fashioned spin with rye & bourbon, blended vermouth, ginger, lime, bitters.",
+     "source": "https://nouvellevaguetirana.com/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -688,8 +742,9 @@
    "signatureCocktails": [
     {
      "name": "Fresh Campari",
-     "description": "House-made Campari-style drink from herbs, roots, spices (from search summary).",
-     "source": "https://www.barsandcocktails.com.au/bars-clubs/communication-the-key-at-world-top-50-bar/"
+     "description": "\"I don't use Campari, I use Campari ingredients\" – many flavours and spices muddled together fresh.",
+     "source": "https://www.barsandcocktails.com.au/bars-clubs/communication-the-key-at-world-top-50-bar/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -702,8 +757,9 @@
    "signatureCocktails": [
     {
      "name": "House Martini",
-     "description": "House gin & house dry vermouth from the freezer; onion garnish recommended (from search summary).",
-     "source": "https://www.boothby.com.au/house-martini/"
+     "description": "House gin and house dry vermouth, poured very cold from an insulated freezer flask; choice of garnish (onion recommended).",
+     "source": "https://www.boothby.com.au/house-martini/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -716,8 +772,16 @@
    "signatureCocktails": [
     {
      "name": "Grand Martiny's",
-     "description": "Bombay Sapphire, La Cigarrera manzanilla, St-Germain, 2016 Churchill's port, Hine Rare cognac; marinated grape (from search summary).",
-     "source": "https://hauteliving.com/2024/10/cocktail-of-the-week-the-grand-martinys-at-martinys-ny/757273/"
+     "description": "Stir; martini glass; grape marinated 24 h in olive oil & salt.",
+     "source": "https://hauteliving.com/2024/10/cocktail-of-the-week-the-grand-martinys-at-martinys-ny/757273/",
+     "verified": "2026-10-15",
+     "spec": [
+      "40 ml Bombay Sapphire",
+      "40 ml La Cigarrera Manzanilla",
+      "10 ml St-Germain",
+      "5 ml 2016 Porto",
+      "5 ml Hine Rare cognac"
+     ]
     }
    ],
    "signatureStatus": "sourced"
@@ -730,8 +794,9 @@
    "signatureCocktails": [
     {
      "name": "Tascalate Sour",
-     "description": "Mezcal, Chiapas tascalate, fermented cacao, lemon, agave, egg white (from search summary).",
-     "source": "https://punchdrink.com/articles/tlecan-tascalate-sour-mexico-city-mezcal-cocktail/"
+     "description": "Mezcal, tascalate (maize, cacao, achiote), agave nectar, lemon, egg white; coupe, dusted with fermented cacao.",
+     "source": "https://punchdrink.com/articles/tlecan-tascalate-sour-mexico-city-mezcal-cocktail/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -744,8 +809,9 @@
    "signatureCocktails": [
     {
      "name": "Virtù Martini",
-     "description": "Japanese gin & vodka, French vermouth, hinoki bitters (from search summary).",
-     "source": "https://www.fourseasons.com/otemachi/dining/menus/virtu-bar-menu/"
+     "description": "Japanese gin and vodka, French vermouth, hinoki bitters. JPY 4,100.",
+     "source": "https://www.fourseasons.com/otemachi/dining/menus/virtu-bar-menu/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -758,8 +824,9 @@
    "signatureCocktails": [
     {
      "name": "Phish Food Old Fashioned",
-     "description": "Bourbon, Tennessee whiskey, cacao rum, house marshmallow-fluff syrup (from search summary).",
-     "source": "https://vinepair.com/articles/bar-snack-phish-food-old-fashioned/"
+     "description": "Old Forester Rye, Jack Daniel's Tennessee Whiskey, Copalli Cocoa Rum, house marshmallow-fluff syrup.",
+     "source": "https://vinepair.com/articles/bar-snack-phish-food-old-fashioned/",
+     "verified": "2026-10-15"
     }
    ],
    "signatureStatus": "sourced"
@@ -772,8 +839,15 @@
    "signatureCocktails": [
     {
      "name": "La Tomatera",
-     "description": "Tequila, green-tomato liqueur, soda (from search summary).",
-     "source": "https://www.spiriteddrinks.com/la-tomatera-angelita-madrid-tequila-tomato-cocktail/"
+     "description": "Tequila, green tomato liqueur, green tomato soda, tomato-leaf foam. (Source measures in grams.)",
+     "source": "https://www.spiriteddrinks.com/la-tomatera-angelita-madrid-tequila-tomato-cocktail/",
+     "verified": "2026-10-15",
+     "spec": [
+      "15 g tequila",
+      "20 g green tomato liqueur",
+      "130 g green tomato soda",
+      "Tomato-leaf foam to top"
+     ]
     }
    ],
    "signatureStatus": "sourced"

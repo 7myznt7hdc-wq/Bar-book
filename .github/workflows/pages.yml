@@ -3,6 +3,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Refresh 50 Best Bars list"]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: read
   pages: write

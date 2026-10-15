@@ -30,3 +30,22 @@ Bump the cache version in `sw.js` after changing files.
 
 ## Favourites (v9)
 `favs.js`: heart on every card/detail (keys c:/m:/s:), localStorage `barbook-favs`, included in My Recipes export/import. Nav: 5 tabs; "Saved" tab holds a Favourites | My recipes toggle.
+
+## v10 – routing fix
+Hash routes are split at the first `/` and *then* each part is decoded, so names like `50/50` or `9 1/2 Weeks` open correctly. Unknown items show a "not found" page.
+
+## v11 – More tab
+Tabs: Recipes · Saved · Seasonal · 50 Best · More. **More** contains:
+- **Pre-batch** (also reachable from every recipe).
+- **My Bar**: tick the bottles and ingredients you own (normalised, grouped list), then see *Make now* and *Missing 1* (grouped by what to buy).
+- **Costs & GP**: enter bottle price (£) and size. Cost per serve and suggested sell price at your target GP% (default 75%, inc. 20% VAT optional) appear on recipes and batches.
+- **Prep**: ice, glass chilling, techniques, syrups/infusions/oleo saccharum in ml/g.
+- **Settings & backup**: ml/oz toggle (1 oz = 30 ml), GP target, VAT. **Backup has no server**: download/restore a `.json` file, or copy/paste a backup code (`BB1z.` gzip or `BB1.`). Everything lives only in this browser's localStorage (`barbook-*` keys), so back up before clearing site data or switching phones.
+
+## Auto-updating the 50 Best Bars list
+`.github/workflows/refresh-bars.yml` runs on Mondays 06:17 UTC, Sept to Nov, and can also be run by hand (Actions → "Refresh 50 Best Bars list" → Run workflow; `dry_run` defaults to true).
+Safety rules (`scripts/refresh_bars.py`):
+- Commits only if ranks **exactly 1–50** are parsed from the50.com and the list year is **newer** than the one in `data/bars.json` (otherwise exit 0, nothing changes; parse failure exits 2 and fails the run).
+- Sourced signature drinks are kept, matched by bar name. New bars start as "unknown" until verified by hand. Recipes are never invented.
+- If the file changes it bumps the `barbook-vN` cache in `sw.js` and commits as bar-book-bot. Pushes made with GITHUB_TOKEN don't trigger other workflows, so `pages.yml` also runs on `workflow_run` of this workflow.
+Run locally: `python3 scripts/refresh_bars.py --dry-run` (or `--html saved.html`, `--force`).
