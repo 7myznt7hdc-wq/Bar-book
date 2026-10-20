@@ -9,7 +9,7 @@ document.addEventListener('click',e=>{const h=e.target.closest('.heart');if(!h)r
  const k=h.dataset.k,a=favs(),on=!a.includes(k);saveFavs(on?[...a,k]:a.filter(x=>x!=k));
  document.querySelectorAll(`.heart[data-k="${CSS.escape(k)}"]`).forEach(b=>{b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
  if(!on&&location.hash.startsWith('#fav')){const t=h.closest('.tile');if(t)t.remove();favCount()}},true);
-const savedToggle=w=>`<div class=seg><a href="#fav" class="${w=='fav'?'on':''}">♥ Favourites</a><a href="#mine" class="${w=='mine'?'on':''}">My recipes</a></div>`;
+const savedToggle=w=>`<div class=seg><a href="#fav" class="${w=='fav'?'on':''}">${I('heart')}Favourites</a><a href="#mine" class="${w=='mine'?'on':''}">My recipes</a></div>`;
 function favCount(){const el=document.getElementById('fcnt');if(el)el.textContent=document.querySelectorAll('#flist .tile').length+' saved'}
 async function favList(){if(typeof SEA!=='undefined'&&!SEA)SEA=await fetch('data/seasonal.json').then(r=>r.json()).catch(()=>null);if(!location.hash.startsWith('#fav'))return;
  const specs=SEA?SEA.periods.flatMap(p=>p.specs):[];
