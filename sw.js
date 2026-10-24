@@ -1,5 +1,5 @@
-const V='barbook-v14',IMG='barbook-img-v1',MAXIMG=250;
-const F=['./','index.html','style.css','app.js','features.js','seasonal.js','favs.js','more.js','manifest.json','icon-192.png','icon-512.png','data/cocktails.json','data/bars.json','data/classics.json','data/seasonal.json'];
+const V='barbook-v15',IMG='barbook-img-v1',MAXIMG=250;
+const F=['./','index.html','style.css','app.js','features.js','seasonal.js','favs.js','more.js','cotd.js','manifest.json','icon-192.png','icon-512.png','data/cocktails.json','data/bars.json','data/classics.json','data/seasonal.json','data/history.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(F.map(f=>new Request(f,{cache:'reload'})))));self.skipWaiting()});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!=V&&x!=IMG).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 async function trim(c){const k=await c.keys();for(let i=0;i<k.length-MAXIMG;i++)await c.delete(k[i])}

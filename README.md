@@ -49,3 +49,9 @@ Safety rules (`scripts/refresh_bars.py`):
 - Sourced signature drinks are kept, matched by bar name. New bars start as "unknown" until verified by hand. Recipes are never invented.
 - If the file changes it bumps the `barbook-vN` cache in `sw.js` and commits as bar-book-bot. Pushes made with GITHUB_TOKEN don't trigger other workflows, so `pages.yml` also runs on `workflow_run` of this workflow.
 Run locally: `python3 scripts/refresh_bars.py --dry-run` (or `--html saved.html`, `--force`).
+
+## v15 – Cocktail of the Day
+- `cotd.js` picks one drink per UK calendar day (Europe/London) from the drinks in `data/history.json`. It uses a seeded shuffle per cycle, so there are no repeats until every drink has appeared. It works offline.
+- The card at the top of Recipes opens `#cotd`, which shows the history, sources, the full recipe (ml/oz, heart, Pre-batch) and the past 7 picks. `#cotd/YYYY-MM-DD` shows the pick for any date.
+- Detail pages show a **History** section when a drink has one. `aliases` maps duplicate names (e.g. Dry Martini → Martini).
+- History texts are short summaries written from the linked sources (Wikipedia). Disputed origins are stated as disputed.

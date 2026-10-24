@@ -168,3 +168,20 @@ html[data-theme=dark] .tile .heart{background:transparent}
 html[data-theme=dark] .heart.big{background:var(--card2)}
 .bhead.big{height:150px}.bhead.big .brank{font-size:2.8rem}
 .hero-wrap .bhead.big{height:auto;min-height:150px;padding-top:60px}
+/* v15 Cocktail of the Day */
+.cotd{position:relative;display:flex;align-items:center;gap:var(--s3);margin:var(--s3) 0 var(--s4);padding:var(--s3) 40px var(--s3) var(--s3);background:var(--card);border:1px solid var(--line2);border-left:4px solid var(--acc);border-radius:var(--r);text-decoration:none;color:var(--tx)}
+.cotd-img{width:84px;height:84px;flex:none;border-radius:var(--r-s);object-fit:cover;background:var(--bg2)}
+.cotd-b{min-width:0;flex:1}.cotd-k{margin:0 0 2px;display:flex;align-items:center;gap:6px;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--acc)}
+.cotd h2{font-family:var(--serif);font-size:1.3rem;font-weight:600;margin:0 0 2px;line-height:1.2;overflow-wrap:anywhere}
+.cotd-t{margin:0;font-size:.88rem;color:var(--tx);opacity:.85;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cotd-m{margin:4px 0 0;font-size:.74rem;color:var(--mu)}
+.cotd-chev{position:absolute;right:var(--s3);top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--mu)}
+.cotd-head{padding:var(--s4) 0 0}.cotd-head .eyebrow{margin:0;color:var(--acc)}.cotd-head p{margin:2px 0 0}
+.cotd-head+.hero{padding-top:56px}
+.hist{background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:var(--s1) var(--s4) var(--s3);margin:var(--s4) 0}
+.hist .eyebrow{margin-top:var(--s3)}.hist p{line-height:1.6;margin:0 0 var(--s2)}.hist .srcs{margin:0}.hist .srcs a{color:var(--acc)}
+.seg.mini{display:inline-grid;width:auto;grid-template-columns:auto auto;margin:0 0 var(--s2)}.seg.mini a{padding:4px 14px;font-size:.8rem}
+.past{display:flex;flex-direction:column;gap:var(--s2);margin-bottom:var(--s4)}
+.prow{display:flex;align-items:center;gap:var(--s3);padding:var(--s2);background:var(--card);border:1px solid var(--line2);border-radius:var(--r-s);text-decoration:none;color:var(--tx)}
+.prow img{width:44px;height:44px;flex:none;border-radius:8px;object-fit:cover;background:var(--bg2)}.prow div{flex:1;min-width:0}.prow small{display:block;color:var(--mu);font-size:.74rem}.prow b{font-weight:600;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.prow .ic{color:var(--mu)}
+html[data-theme=dark] .cotd{background:linear-gradient(135deg,var(--card2),var(--card))}
