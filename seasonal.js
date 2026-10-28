@@ -13,7 +13,7 @@ async function seasonal(dateArg){if(!SEA)SEA=await fetch('data/seasonal.json').t
  const today=dateArg&&/^\d{4}-\d{2}-\d{2}$/.test(dateArg)?Math.floor(Date.parse(dateArg+'T00:00:00Z')/DAY):dayNum(new Date());
  const ep=Math.floor(Date.parse(SEA.epoch+'T00:00:00Z')/DAY),f=Math.floor((today-ep)/14),cur=fortnight(f),nx=fortnight(f+1),left=cur.end+1-today;
  if(!location.hash.startsWith('#seasonal'))return;
- const tile=c=>c._spec?`<a class=tile href="#sspec/${c.id}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class="tag house">Bar Book recipe</span></div></div></a>`:`<a class=tile href="${link(c)}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3><div class=tags><span class=tag>${esc(c.spirit)}</span></div></div></a>`;
+ const tile=c=>c._spec?`<a class=tile href="#sspec/${c.id}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3>${noteDot(c)}<div class=tags><span class="tag house">Bar Book recipe</span></div></div></a>`:`<a class=tile href="${link(c)}">${heart(c)}${pic(c,true)}<div class=tile-b><h3>${esc(c.name)}</h3>${noteDot(c)}<div class=tags><span class=tag>${esc(c.spirit)}</span></div></div></a>`;
  app.innerHTML=`<section class=hero-s><p class=eyebrow>Seasonal · ${fmt(cur.start)} – ${fmt(cur.end)}</p><h1 class=display>${esc(cur.title)}</h1>
  <p class=countdown><span>Changes in <b>${left} day${left==1?'':'s'}</b></span></p></section>
  <div class=grid>${cur.picks.map(tile).join('')}</div>

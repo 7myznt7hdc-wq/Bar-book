@@ -55,3 +55,11 @@ Run locally: `python3 scripts/refresh_bars.py --dry-run` (or `--html saved.html`
 - The card at the top of Recipes opens `#cotd`, which shows the history, sources, the full recipe (ml/oz, heart, Pre-batch) and the past 7 picks. `#cotd/YYYY-MM-DD` shows the pick for any date.
 - Detail pages show a **History** section when a drink has one. `aliases` maps duplicate names (e.g. Dry Martini → Martini).
 - History texts are short summaries written from the linked sources (Wikipedia). Disputed origins are stated as disputed.
+
+## v16 – Shopping list, My notes, Practice
+All three live in `extras.js` and run fully offline (service worker cache `barbook-v16`).
+
+- **Shopping list** (More → Shopping list, `#shop`): add a drink with **Add to list** on any detail page, or use **Add to shopping list** on Saved / My Recipes to select several drinks at once. Ingredients are combined across drinks (scaled by serves) and split into *Bottles & spirits* and *Fresh & other*. Items already on your My Bar shelf are pre-ticked as "In My Bar"; tick or untick anything to override. Share (where the phone supports it), Copy as text, Clear all. Stored in `barbook-shop`.
+- **My notes**: every drink detail page (library, My Recipes, Cocktail of the Day) has a My notes box with an optional 1–5 star rating. 50 Best signature drinks have a collapsible "My notes" on each card. Drinks with a note show a small note marker in list rows. Stored in `barbook-notes`.
+- **Practice** (More → Practice, `#practice`): flashcards (name first, then reveal ml spec, method and glass; mark Got it / Again) or multiple choice (base spirit, glass, or an ingredient). Pick All, Favourites, Classics or My Recipes. Simple spaced repetition: Again cards come back within the session and are due again in 10 minutes; Got it pushes the next review out 1, 3, 7, 14, then 30 days. Daily streak, best streak and quiz score in `barbook-practice`.
+- Backup / restore (Settings) now includes the shopping list, notes and practice progress.
