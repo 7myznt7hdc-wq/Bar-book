@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: ["Refresh 50 Best Bars list"]
+    workflows: ["Refresh 50 Best Bars list", "Fetch bar trends and news"]
     types: [completed]
     branches: [main]
 permissions:

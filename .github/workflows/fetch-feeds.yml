@@ -1,0 +1,33 @@
+name: Fetch bar trends and news
+# Daily public RSS/Atom + YouTube channel fetch. No API keys.
+# Commits only when item content changes (not merely the updated timestamp).
+on:
+  schedule:
+    - cron: '12 6 * * *'   # 06:12 UTC daily
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fetch-feeds
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch feeds
+        run: python3 scripts/fetch_feeds.py
+      - name: Commit if content changed
+        run: |
+          git config user.name "bar-book-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trends.json data/news.json
+          if git diff --cached --quiet; then
+            echo "No content change."
+            exit 0
+          fi
+          git commit -m "Update bar trends and news feeds"
+          git push

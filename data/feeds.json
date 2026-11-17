@@ -1,0 +1,142 @@
+{
+  "note": "Curated, verified public RSS/Atom and YouTube channel feeds only. No API keys. Feeds that 404, redirect to HTML, or belong to a different site are left out. Difford's Guide and Liquor.com have no working public blog RSS (checked 2026-11-17); Difford's official YouTube is included. VinePair is included as trusted drinks media.",
+  "checked": "2026-11-17",
+  "feeds": [
+    {
+      "id": "the50-yt",
+      "name": "The 50",
+      "kind": "youtube",
+      "group": "official",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOJ2ssKPYpOHhkeQK5hA9uQ",
+      "site": "https://www.youtube.com/channel/UCOJ2ssKPYpOHhkeQK5hA9uQ"
+    },
+    {
+      "id": "alquimico-yt",
+      "name": "Alquímico",
+      "kind": "youtube",
+      "group": "bar",
+      "bar": "Alquímico",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgifep96m1x-Uwk9ACiEc1g",
+      "site": "https://www.youtube.com/channel/UCgifep96m1x-Uwk9ACiEc1g"
+    },
+    {
+      "id": "diffords-yt",
+      "name": "Difford's Guide",
+      "kind": "youtube",
+      "group": "media",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCI62bATDwldXwDvxBSklgLg",
+      "site": "https://www.youtube.com/user/diffordsguide"
+    },
+    {
+      "id": "imbibe-yt",
+      "name": "Imbibe Magazine",
+      "kind": "youtube",
+      "group": "media",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCE0q3Ep8xbecdh65c_rFGmg",
+      "site": "https://www.youtube.com/user/imbibemagazine"
+    },
+    {
+      "id": "alquimico-blog",
+      "name": "Alquímico",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Alquímico",
+      "url": "https://alquimico.com/feed/",
+      "site": "https://alquimico.com"
+    },
+    {
+      "id": "sips-blog",
+      "name": "Sips",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Sips",
+      "url": "https://sips.barcelona/feed/",
+      "site": "https://sips.barcelona"
+    },
+    {
+      "id": "nouveau-blog",
+      "name": "Bar Nouveau",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Bar Nouveau",
+      "url": "https://barnouveau.fr/feed/",
+      "site": "https://barnouveau.fr"
+    },
+    {
+      "id": "locale-blog",
+      "name": "Locale Firenze",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Locale Firenze",
+      "url": "https://www.localefirenze.it/feed/",
+      "site": "https://www.localefirenze.it"
+    },
+    {
+      "id": "mamba-blog",
+      "name": "Mamba Negra",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Mamba Negra",
+      "url": "https://mambanegra.co/feed/",
+      "site": "https://mambanegra.co"
+    },
+    {
+      "id": "sastreria-blog",
+      "name": "Sastrería Martinez",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Sastrería Martinez",
+      "url": "https://www.sastreriamartinez.com/feed/",
+      "site": "https://www.sastreriamartinez.com"
+    },
+    {
+      "id": "mimi-blog",
+      "name": "Mimi Kakushi",
+      "kind": "news",
+      "group": "bar",
+      "bar": "Mimi Kakushi",
+      "url": "https://mimikakushi.com/feed/",
+      "site": "https://mimikakushi.com"
+    },
+    {
+      "id": "punch",
+      "name": "Punch",
+      "kind": "news",
+      "group": "media",
+      "url": "https://punchdrink.com/feed/",
+      "site": "https://punchdrink.com"
+    },
+    {
+      "id": "imbibe",
+      "name": "Imbibe",
+      "kind": "news",
+      "group": "media",
+      "url": "https://imbibemagazine.com/feed/",
+      "site": "https://imbibemagazine.com"
+    },
+    {
+      "id": "class",
+      "name": "CLASS",
+      "kind": "news",
+      "group": "media",
+      "url": "https://classbarmag.com/news/rss.php",
+      "site": "https://classbarmag.com"
+    },
+    {
+      "id": "drinks-int",
+      "name": "Drinks International",
+      "kind": "news",
+      "group": "media",
+      "url": "https://feeds.feedburner.com/DrinksInternational",
+      "site": "https://www.drinksint.com"
+    },
+    {
+      "id": "vinepair",
+      "name": "VinePair",
+      "kind": "news",
+      "group": "media",
+      "url": "https://vinepair.com/feed/",
+      "site": "https://vinepair.com"
+    }
+  ]
+}
