@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-17T15:36:05Z",
+  "updated": "2026-11-18T15:39:51Z",
   "items": [
+    {
+      "id": "921ecf355b36f5d0",
+      "title": "Welcome inside Macau",
+      "source": "The 50",
+      "sourceId": "the50-yt",
+      "link": "https://www.youtube.com/shorts/DQNT_lJ69kk",
+      "date": "2026-11-18T12:00:08Z",
+      "thumb": "https://i1.ytimg.com/vi/DQNT_lJ69kk/hqdefault.jpg",
+      "excerpt": "From fresh-from-the-oven pineapple buns and crispy egg tarts to iconic Macanese dishes and late-night yakitori. Keep watching to discover lauded chef Tam Kwok-Fung’s favourite places to eat and drink…"
+    },
+    {
+      "id": "bb4ca1aa06eb2a19",
+      "title": "The 50 Best Restaurants Latin America: 51-100 List",
+      "source": "The 50",
+      "sourceId": "the50-yt",
+      "link": "https://www.youtube.com/watch?v=fcsvprfjQ54",
+      "date": "2026-11-18T11:38:58Z",
+      "thumb": "https://i3.ytimg.com/vi/fcsvprfjQ54/hqdefault.jpg",
+      "excerpt": "Are you ready? The 51-100 extended ranking of The 50 Best Restaurants Latin America 2026, sponsored by S.Pellegrino & Acqua Panna, will be revealed on Monday, 23 November at 14:30 (UTC+0). Which…",
+      "tags": [
+        "awards"
+      ]
+    },
     {
       "id": "7d9a843b34a6b4a4",
       "title": "The 50 Best Restaurants Latin America 2026 | Awards Ceremony Guadalajara",
@@ -134,29 +157,6 @@
       "tags": [
         "awards"
       ]
-    },
-    {
-      "id": "ebb82aac0528046f",
-      "title": "The 50 Best Bars 2026: 1-50 List",
-      "source": "The 50",
-      "sourceId": "the50-yt",
-      "link": "https://www.youtube.com/watch?v=znCvGzh85pA",
-      "date": "2026-10-07T19:51:03Z",
-      "thumb": "https://i3.ytimg.com/vi/znCvGzh85pA/hqdefault.jpg",
-      "excerpt": "Congratulations to The 50 Best Bars 2026, sponsored by Perrier! How many have you visited? Learn more about the list here: https://bit.ly/T50BB26",
-      "tags": [
-        "awards"
-      ]
-    },
-    {
-      "id": "ef9c2a468c8f573e",
-      "title": "What Makes Yiaga in Melbourne the Most Exciting Restaurant in the World?",
-      "source": "The 50",
-      "sourceId": "the50-yt",
-      "link": "https://www.youtube.com/shorts/qsIBdDKl8Dk",
-      "date": "2026-10-02T12:23:25Z",
-      "thumb": "https://i2.ytimg.com/vi/qsIBdDKl8Dk/hqdefault.jpg",
-      "excerpt": "What makes Yiaga in Melbourne the most exciting restaurant in the world? Meet chef Hugh Allen as he tells us more about his restaurant and why it was named the winner of the Visa One to Watch Award…"
     }
   ]
 }
