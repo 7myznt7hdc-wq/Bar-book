@@ -1,6 +1,33 @@
 {
-  "updated": "2026-11-18T15:39:51Z",
+  "updated": "2026-11-19T15:44:41Z",
   "items": [
+    {
+      "id": "7b6b828d3dc0a832",
+      "title": "The Buildout Podcast: Joshua Weissman",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/the-buildout/joshua-weissman/",
+      "date": "2026-11-19T11:30:45Z",
+      "excerpt": "This episode of The Buildout is brought to you by Farmer’s Gin. As a bartender, I’m always looking for spirits I’d feel confident pouring and recommending to guests, and Farmer’s Gin is one of them…"
+    },
+    {
+      "id": "d5dbba0098f03bfe",
+      "title": "Wine 101: VinePair’s Top 50 Wine of 2026 Deep Dive",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/articles/wine-101-podcast-50-best-wines-2026/",
+      "date": "2026-11-19T11:00:52Z",
+      "excerpt": "This episode of Wine 101 is brought to you by Meiomi. Celebrate your holiday season to the fullest by bringing, or hosting with, the bottle that makes a lasting impression even after the last drop…"
+    },
+    {
+      "id": "59851df9e080366d",
+      "title": "Inside Zadie's - Cressida Lawlor's latest Medlock Square venue",
+      "source": "CLASS",
+      "sourceId": "class",
+      "link": "http://classbarmag.com/news/fullstory.php/aid/2454/Inside_Zadie_s_-_Cressida_Lawlor_s_latest_Medlock_Square_venue_.html",
+      "date": "2026-11-19T05:00:00Z",
+      "excerpt": "Zadie’s, an Itameshi restaurant and bar in Manchester’s Medlock Square recently launched, billing itself as Manchester’s first to champion Asian whisky."
+    },
     {
       "id": "efe80840f9918e39",
       "title": "The VinePair Podcast: The Making of an Iconic California Wine",
@@ -167,24 +194,6 @@
       "excerpt": "When you move into a new house in the Phillipines, salt is a common housewarming gift. “Filipinos are a very superstitious group of people,” Darwin Pornel, the co-owner of New York City’s new…"
     },
     {
-      "id": "01390ddb95e16852",
-      "title": "Wine 101: An Excited Reflection on American Wine in 2026 And Where We Can Go From Here",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/articles/wine-101-podcast-american-wine-2026-reflection/",
-      "date": "2026-11-13T11:30:06Z",
-      "excerpt": "This episode of Wine 101 is brought to you by Wines of Alsace and Alsace Rocks. Tucked between the Vosges Mountains and the Rhine River in northeastern France, Alsace is one of the most distinctive…"
-    },
-    {
-      "id": "ef1794e3bf6c688c",
-      "title": "The Buildout Podcast: Andrew Tarlow",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/the-buildout/andrew-tarlow/",
-      "date": "2026-11-13T11:00:10Z",
-      "excerpt": "This episode of The Buildout is brought to you by Farmer’s Gin. As a bartender, I get to taste a lot of gin, so I can be picky about what I offer my guests. Farmer’s Gin is one of those bottles I…"
-    },
-    {
       "id": "938477bb03eee523",
       "title": "The Pinky Gonzales Is a “Well-Balanced Banger” for Tequila Lovers",
       "source": "Punch",
@@ -225,6 +234,15 @@
       "tags": [
         "openings"
       ]
+    },
+    {
+      "id": "023792e7f1956ec4",
+      "title": "Shochu cocktails with Western ingredients",
+      "source": "CLASS",
+      "sourceId": "class",
+      "link": "http://classbarmag.com/news/fullstory.php/aid/2435/Shochu_cocktails_with_Western_ingredients.html",
+      "date": "2026-11-10T05:00:00Z",
+      "excerpt": "Japanese spirit shochu doesn’t only play well with cocktail ingredients from its home country. Class attended one of a series of hands-on workshops at this year’s Drink Japan event in London that set…"
     },
     {
       "id": "0e5174669765772a",
@@ -281,15 +299,6 @@
       "excerpt": "El Siete, which was launched by Harts Group earlier this year, is Soho's latest agave bar, taking over a basement space under restaurant El Pastor."
     },
     {
-      "id": "eadbbd7f5527d750",
-      "title": "Kenyan agave spirit now available in the UK",
-      "source": "CLASS",
-      "sourceId": "class",
-      "link": "http://classbarmag.com/news/fullstory.php/aid/2448/Kenyan_agave_spirit_now_available_in_the_UK.html",
-      "date": "2026-11-06T05:00:00Z",
-      "excerpt": "Roho, the first Kenyan agave spirit, is now available in the UK."
-    },
-    {
       "id": "4f9be4d50f143fc3",
       "title": "This Thanksgiving, Don’t Use AI to Pick Your Wines. Use Somm Intelligence.",
       "source": "Punch",
@@ -315,15 +324,6 @@
       "link": "https://punchdrink.com/articles/cocktail-garnish-technique-giacosa-cosmo-negroni/",
       "date": "2026-11-02T11:00:30Z",
       "excerpt": "Giacosa 1815 in Florence, Italy found a clever way to deck out its Cosmo Negroni."
-    },
-    {
-      "id": "023792e7f1956ec4",
-      "title": "Shochu cocktails with Western ingredients",
-      "source": "CLASS",
-      "sourceId": "class",
-      "link": "http://classbarmag.com/news/fullstory.php/aid/2435/Shochu_cocktails_with_Western_ingredients.html",
-      "date": "2026-10-28T04:00:00Z",
-      "excerpt": "Japanese spirit shochu doesn’t only play well with cocktail ingredients from its home country. Class attended one of a series of hands-on workshops at this year’s Drink Japan event in London that set…"
     }
   ]
 }
