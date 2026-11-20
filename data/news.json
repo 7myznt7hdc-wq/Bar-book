@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-19T15:44:41Z",
+  "updated": "2026-11-20T15:27:24Z",
   "items": [
+    {
+      "id": "174258936be4993d",
+      "title": "The Best Cocktails to Make This Holiday Season",
+      "source": "Punch",
+      "sourceId": "punch",
+      "link": "https://punchdrink.com/articles/best-holiday-thanksgiving-christmas-cocktail-recipes-2026/",
+      "date": "2026-11-20T14:00:57Z",
+      "excerpt": "Our highly curated list of the drinks we’re craving right now."
+    },
+    {
+      "id": "b1feaa2f9cc402bf",
+      "title": "12 of the Best Wines From France’s Bergerac",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/good-wine-reviews/best-wines-france-bergerac/",
+      "date": "2026-11-20T14:00:54Z",
+      "excerpt": "The winemakers of Bergerac are tired of living in the shadow of neighboring Bordeaux — as they should be. The relatively small, hilly French wine region is anchored by the same Dordogne River that…"
+    },
+    {
+      "id": "e2152d60627e3161",
+      "title": "Booze News Weekly Roundup: Pause Continues at Jim Beam Facility, Global Wine Output Remains at Record Low, and More",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/booze-news/booze-news-weekly-roundup-jim-beam-distillery-pause-continues/",
+      "date": "2026-11-20T13:30:13Z",
+      "excerpt": "This is VinePair’s Booze News Weekly Roundup, where we gather the hottest headlines and product releases every Friday for a snapshot of what’s happening in the beverage alcohol industry. This week…"
+    },
+    {
+      "id": "2e654634499814ba",
+      "title": "Appletinis Are Back (Again). But This Time, With Real Apple.",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/articles/appletinis-back-again-with-real-apple/",
+      "date": "2026-11-20T11:55:07Z",
+      "excerpt": "Sometimes, the apple falls far from the tree. Appletinis are back. No, not the electric green, schnapps-laden concoctions of ’90s-parties past. Bartenders in New York City are dusting off the retro…"
+    },
+    {
+      "id": "174cbd62cac6cb67",
+      "title": "The VinePair Podcast: What Matters Most: How It’s Made or How It Tastes?",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/articles/vp-podcast-does-wine-taste-or-production-matter-more/",
+      "date": "2026-11-20T11:30:24Z",
+      "excerpt": "Today on the “VinePair Podcast,” Joanna and Zach respond to a listener’s question about what consumers care more about: how a wine is made or what it tastes like. It’s a far more complicated issue…"
+    },
     {
       "id": "7b6b828d3dc0a832",
       "title": "The Buildout Podcast: Joshua Weissman",
@@ -149,15 +194,6 @@
       "excerpt": "In Italy, finishing dinner doesn’t necessarily mean the evening is over. In fact, a key part of the Italian dinner experience comes after all the food is gone. While the country’s aperitivo culture…"
     },
     {
-      "id": "382c9dfb9903e5f6",
-      "title": "The Surprising History Behind Italy’s Most Beloved Pre-dinner Drinks",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/articles/italian-aperitivo-guide/",
-      "date": "2026-11-14T17:35:07Z",
-      "excerpt": "In Italy, drinking before dinner isn’t just a way to start the evening. It’s a tradition. The aperitivo, or pre-dinner drink, is a custom that has been deeply rooted in Italian culture for…"
-    },
-    {
       "id": "5e40710e8e81c411",
       "title": "Drink of the Week: Kobal Bajta Pét-Nat Rosé 2025",
       "source": "Imbibe",
@@ -165,33 +201,6 @@
       "link": "https://imbibemagazine.com/drink-of-the-week-kobal-bajta-pet-nat-rose-2025/",
       "date": "2026-11-13T15:46:48Z",
       "excerpt": "A juicy Slovenian sparkler that punches above its weight."
-    },
-    {
-      "id": "3f58800411706c98",
-      "title": "Booze News Weekly Roundup: Modelo Named Official Beer of the NCAA, Stoli Returns to the U.S. After Bankruptcy, and More",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/booze-news/booze-news-weekly-roundup-modelo-official-ncaa-beer/",
-      "date": "2026-11-13T13:30:12Z",
-      "excerpt": "This is VinePair’s Booze News Weekly Roundup, where we gather the hottest headlines and product releases every Friday for a snapshot of what’s happening in the beverage alcohol industry. This week…"
-    },
-    {
-      "id": "70a0fad5f80963ba",
-      "title": "The VinePair Podcast: How to Be Enthusiastic and Knowledgeable Without Intimidation",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/articles/vp-podcast-how-to-be-knowledgeable-not-intimidating/",
-      "date": "2026-11-13T12:00:16Z",
-      "excerpt": "Today on the “VinePair Podcast,” Adam and Zach respond to a listener’s question about how to talk about wine (or other drinks) without making others feel like they have to agree. That turns into a…"
-    },
-    {
-      "id": "11c5580a8bee0386",
-      "title": "At NYC’s New June Baby, a Traditional Filipino Housewarming Gift Acts as a Cocktail Garnish",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/articles/nyc-june-baby-bar-filipino-salt-garnish/",
-      "date": "2026-11-13T11:55:43Z",
-      "excerpt": "When you move into a new house in the Phillipines, salt is a common housewarming gift. “Filipinos are a very superstitious group of people,” Darwin Pornel, the co-owner of New York City’s new…"
     },
     {
       "id": "938477bb03eee523",
@@ -317,13 +326,14 @@
       "excerpt": "There’s more to the spirit than Margaritas and Palomas. Here are some of our favorite ways to use it in fall- and winter-ready drinks."
     },
     {
-      "id": "3334820425196d12",
-      "title": "This Mesmerizing Garnish Requires No Fancy Tools at All",
-      "source": "Punch",
-      "sourceId": "punch",
-      "link": "https://punchdrink.com/articles/cocktail-garnish-technique-giacosa-cosmo-negroni/",
-      "date": "2026-11-02T11:00:30Z",
-      "excerpt": "Giacosa 1815 in Florence, Italy found a clever way to deck out its Cosmo Negroni."
+      "id": "b9b2ca317b936aab",
+      "title": "Whales: Giants of the Ocean",
+      "source": "Sips",
+      "sourceId": "sips-blog",
+      "link": "https://sips.barcelona/test-post-c0de922b-f1ad-4792-8497-f3c558af1c0b-ae2d002b9285b682/",
+      "date": "2026-10-21T00:00:00Z",
+      "excerpt": "Whales: Giants of the Ocean Whales are among the largest and most remarkable animals on Earth. These marine mammals live in oceans around the world, from warm tropical waters to the cold seas…",
+      "bar": "Sips"
     }
   ]
 }
