@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-22T14:34:45Z",
+  "updated": "2026-11-23T18:08:23Z",
   "items": [
+    {
+      "id": "657edadfc3e68bc9",
+      "title": "Go-To Wines for Thanksgiving",
+      "source": "Imbibe",
+      "sourceId": "imbibe",
+      "link": "https://imbibemagazine.com/wines-for-thanksgiving/",
+      "date": "2026-11-23T15:14:19Z",
+      "excerpt": "Elevate each course with the right pairing."
+    },
+    {
+      "id": "552faea88475c722",
+      "title": "Uncanned Music Makes You Want to Linger at the Bar",
+      "source": "Punch",
+      "sourceId": "punch",
+      "link": "https://punchdrink.com/articles/uncanned-music-audio-hi-fi-bars-restaurants/",
+      "date": "2026-11-23T15:00:02Z",
+      "excerpt": "An interview with the team behind the audio at some of the best bars and restaurants."
+    },
+    {
+      "id": "42142df42509766e",
+      "title": "9 Bartender Tips for Building the Best Self-Serve Bar for Your Holiday Party",
+      "source": "VinePair",
+      "sourceId": "vinepair",
+      "link": "https://vinepair.com/articles/building-self-serve-bar-bartenders-tips/",
+      "date": "2026-11-23T11:55:08Z",
+      "excerpt": "Hosting a holiday party is no easy feat. Between sending out invitations, tidying up, and preparing the menu, the last thing you want to worry about when your guests walk through the door is shaking…"
+    },
+    {
+      "id": "059de9bc9addb42c",
+      "title": "Schofield’s Bar London opens",
+      "source": "CLASS",
+      "sourceId": "class",
+      "link": "http://classbarmag.com/news/fullstory.php/aid/2457/Schofield_92s_Bar_London_opens.html",
+      "date": "2026-11-23T05:00:00Z",
+      "excerpt": "Joe and Daniel Schofield have opened the sequel to their eponymous Manchester bar in Seven Dials, Covent Garden."
+    },
+    {
+      "id": "122ba01e48b777f2",
+      "title": "CLASS Winter 2026 launches",
+      "source": "CLASS",
+      "sourceId": "class",
+      "link": "http://classbarmag.com/news/fullstory.php/aid/2455/CLASS_Winter_2026_launches.html",
+      "date": "2026-11-23T05:00:00Z",
+      "excerpt": "Editor Hamish Smith introduces the latest magazine. Access the digital magazine here. Not subscribed? Bartenders can sign up for a hard copy here."
+    },
     {
       "id": "439e059011084797",
       "title": "CK4444 Review: Bonuses, Payments, Mobile App & Security for Bangladeshi Players",
@@ -234,15 +279,6 @@
       "excerpt": "Emporia Brands has been appointed exclusive UK distributor of Savoia, the Italian aperitivo created by Giuseppe Gallo."
     },
     {
-      "id": "1fd588303bca63d3",
-      "title": "Why An Italian After-Dinner Tradition Has Lasted For Centuries",
-      "source": "VinePair",
-      "sourceId": "vinepair",
-      "link": "https://vinepair.com/articles/discover-italian-digestivo/",
-      "date": "2026-11-14T17:35:57Z",
-      "excerpt": "In Italy, finishing dinner doesn’t necessarily mean the evening is over. In fact, a key part of the Italian dinner experience comes after all the food is gone. While the country’s aperitivo culture…"
-    },
-    {
       "id": "5e40710e8e81c411",
       "title": "Drink of the Week: Kobal Bajta Pét-Nat Rosé 2025",
       "source": "Imbibe",
@@ -303,15 +339,6 @@
       "excerpt": "Japanese spirit shochu doesn’t only play well with cocktail ingredients from its home country. Class attended one of a series of hands-on workshops at this year’s Drink Japan event in London that set…"
     },
     {
-      "id": "0e5174669765772a",
-      "title": "Amontillado Sherry Makes Cocktails Better",
-      "source": "Imbibe",
-      "sourceId": "imbibe",
-      "link": "https://imbibemagazine.com/amontillado-sherry-cocktail-recipes/",
-      "date": "2026-11-09T15:11:55Z",
-      "excerpt": "Recipes that showcase the versatility of amontillado sherry."
-    },
-    {
       "id": "6f21a9a301f06670",
       "title": "Ten Years Later, the Spinzall Keeps Spinning",
       "source": "Punch",
@@ -339,15 +366,6 @@
       "excerpt": "Two former All My Gods bartenders, Bréagha Wolfgang and Jess Hellicar, have joined forces with Kelly Danischewsky, formerly of 21st Amendment, to open The Third House Collective in the dive bar’s…"
     },
     {
-      "id": "8a0c5f71fa64e871",
-      "title": "Inside El Siete, Soho's latest agave bar",
-      "source": "CLASS",
-      "sourceId": "class",
-      "link": "http://classbarmag.com/news/fullstory.php/aid/2446/Inside_El_Siete,_Soho_s_latest_agave_bar.html",
-      "date": "2026-11-06T05:00:00Z",
-      "excerpt": "El Siete, which was launched by Harts Group earlier this year, is Soho's latest agave bar, taking over a basement space under restaurant El Pastor."
-    },
-    {
       "id": "4f9be4d50f143fc3",
       "title": "This Thanksgiving, Don’t Use AI to Pick Your Wines. Use Somm Intelligence.",
       "source": "Punch",
@@ -355,15 +373,6 @@
       "link": "https://punchdrink.com/articles/thanksgiving-wine-advice-ai-sommelier/",
       "date": "2026-11-05T11:00:55Z",
       "excerpt": "A new project empowers curious holiday drinkers to ask real experts for their advice."
-    },
-    {
-      "id": "c88562a575c5b6b3",
-      "title": "Our Favorite Stirred Tequila Cocktails",
-      "source": "Punch",
-      "sourceId": "punch",
-      "link": "https://punchdrink.com/articles/easy-stirred-tequila-cocktail-recipes/",
-      "date": "2026-11-03T11:00:15Z",
-      "excerpt": "There’s more to the spirit than Margaritas and Palomas. Here are some of our favorite ways to use it in fall- and winter-ready drinks."
     },
     {
       "id": "b9b2ca317b936aab",
