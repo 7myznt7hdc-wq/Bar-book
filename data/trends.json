@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-23T18:08:23Z",
+  "updated": "2026-11-26T16:54:09Z",
   "items": [
+    {
+      "id": "e94cdf10a53ad71b",
+      "title": "Omar and Wassim Orfali win the MENA Best Pastry Chef Award 2026",
+      "source": "The 50",
+      "sourceId": "the50-yt",
+      "link": "https://www.youtube.com/watch?v=jfKdNevP-Vw",
+      "date": "2026-11-26T10:30:08Z",
+      "thumb": "https://i3.ytimg.com/vi/jfKdNevP-Vw/hqdefault.jpg",
+      "excerpt": "For Omar and Wassim Orfali, dessert is more than just a sweet way to round off a meal. From childhood memories in Aleppo to some of the region's most celebrated desserts, the Orfali brothers…",
+      "tags": [
+        "awards"
+      ]
+    },
     {
       "id": "bb4ca1aa06eb2a19",
       "title": "The 50 Best Restaurants Latin America: 51-100 List",
@@ -144,16 +157,6 @@
       "tags": [
         "awards"
       ]
-    },
-    {
-      "id": "b8fb6e5fa03d612f",
-      "title": "Inside Evvai in São Paulo",
-      "source": "The 50",
-      "sourceId": "the50-yt",
-      "link": "https://www.youtube.com/watch?v=Z3dyAUQSYfA",
-      "date": "2026-10-13T13:58:59Z",
-      "thumb": "https://i3.ytimg.com/vi/Z3dyAUQSYfA/hqdefault.jpg",
-      "excerpt": "BREAKING: Evvai in São Paulo wins the Art of Hospitality Award 2026, sponsored by Johnnie Walker Gold, as part of The 50 Best Restaurants Latin America. At Evvai, hospitality is as much an art as the…"
     }
   ]
 }
